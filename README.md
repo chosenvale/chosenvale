@@ -12,7 +12,7 @@ ready for input. Don't copy this symbol, just the code that follows it.*
 1.  Grab the source code and put it in your-new-site-name folder. Replace this
     with a folder name that's meaningful to you.
 
-        $ git clone git://github.com/ent-io/middleman_twitter-bootstrap.git your-new-site-name
+        $ git clone git://github.com/ent-io/middleman-twitter_bootstrap.git your-new-site-name
 
 2.  Open your-new-site-name folder.
 
