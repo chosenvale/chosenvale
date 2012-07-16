@@ -1,0 +1,19 @@
+doctype html
+html
+  == partial 'partials/head'
+  body class=(page_classes)
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          a.btn.btn-navbar data-target=".nav-collapse" data-toggle="collapse"
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.brand href="#"
+          .nav-collapse
+            ul.nav
+              li.active== link_to 'Basic', '/'
+              li== link_to 'Fluid', '#'
+              li== link_to 'Marketing', '#'
+    .container
+      == yield
