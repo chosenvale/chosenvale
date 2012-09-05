@@ -9,6 +9,9 @@
     // Activate all tooltip links
     $('a[rel="tooltip"]').tooltip();
 
+    // Activate all buttons
+    $('div.btn-group').button();
+
     // affix sub nav on scroll
     var $win = $(window)
       , $nav = $('.subnav')
