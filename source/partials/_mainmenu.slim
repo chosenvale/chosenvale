@@ -9,8 +9,9 @@ div class="navbar navbar-inverse navbar-fixed-top"
         | Chosen Vale
       div class="nav-collapse collapse"
         ul class="nav"
-          li== link_to 'Home', '/'
-          li== link_to 'Concerts', '/concerts.html'
-          li== link_to 'Seminars', '/seminars.html'
-          li== link_to 'Admission', '/admission.html'
-          li== link_to 'Application', '/application.html'
+          - links = {'Home' => '/', 'Concerts' => '/concerts.html', 'Seminars' => '/seminars.html', 'Admission' => '/admission.html', 'Application' => '/application.html'}
+          - for title, path in links do
+            - if "/#{current_page.path}" == path || (path == '/' && current_page.path == 'index.html')
+              li class="active"== link_to title, path
+            - else
+              li== link_to title, path
