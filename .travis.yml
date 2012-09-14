@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 1.9.3
+script:
+  - bundle exec rake deploy --trace
+env:
+  - [
+      {secure: "OGhC2CSsmyDLmIElzVGBsaO2NJhrORIrwaSd+nKGfYnAD9j9d5AzB9tjLt8c\nzzm9aGJil9uhODnQ5Jy2fVnooTTvDVXlkrspJ9b5Z7cJK1eL+8XvSQ60Hvju\nTNQcb2i+Jx1wd6PNAfTtNYoypkKHAISdPHK/FJZaoXqAny0kQFc="},
+      {secure: "iduzN9xIvwXGnVpJwXVv9ojKGqmdM/fFz1puUTOPDQb49aA2bvv+8V6jXSGY\nrXHzaCJYkWuatsFVDsg3E67PT2FxfH+IaWJ92EG790VnhT8B9REF7bZv40Ut\nHHh0uWt0LEzMo8WNUuK+YT6ZvaSiuSNGLO3w20EtyLN1zJQWbVo="}
+    ]

@@ -1,0 +1,18 @@
+credentials:
+  google_storage_access_key_id: <%= ENV['GOOGLE_STORAGE_ACCESS_KEY_ID'] %>
+  google_storage_secret_access_key: <%= ENV['GOOGLE_STORAGE_SECRET_ACCESS_KEY'] %>
+storage:
+  local:
+    provider: 'Local'
+    directory: 'build'
+  remote:
+    provider: 'Google'
+    directory: 'chosenvalemusic.cli.ent.io'
+branch:
+  - master
+cache_control:
+  300:
+    - .htm
+    - .html
+  3600:
+    - default
