@@ -1,0 +1,17 @@
+div class="navbar navbar-inverse navbar-fixed-top"
+  div class="navbar-inner"
+    div class="container"
+      a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse"
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a class="brand" href="/"
+        | Chosen Vale
+      div class="nav-collapse collapse"
+        ul class="nav"
+          - links = {'Home' => '/', 'Concerts' => '/concerts.html', 'Seminars' => '/seminars.html', 'Admission' => '/admission.html', 'Application' => '/application.html'}
+          - for title, path in links do
+            - if "/#{current_page.path}" == path || (path == '/' && current_page.path == 'index.html')
+              li class="active"== link_to title, path
+            - else
+              li== link_to title, path
