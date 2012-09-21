@@ -1,0 +1,13 @@
+- text_field = "partials/application/text_field"
+
+form class="form-horizontal"
+  == partial text_field, locals: {id: "name", label: "Full Name", description: "As it appears on your Federal ID or Passport."}
+  == partial text_field, locals: {id: "birthday", label: "Date of Birth", description: "In Month/Day/Year format."}
+  == partial text_field, locals: {id: "email", label: "Email Address", description: "No spam, we promise."}
+  == partial text_field, locals: {id: "current_address", label: "Current Address"}
+  == partial text_field, locals: {id: "permanent_address", label: "Permanent Address"}
+  == partial text_field, locals: {id: "position", label: "Present School or Position"}
+  == partial text_field, locals: {id: "education", label: "Education"}
+  == partial text_field, locals: {id: "teachers", label: "Principal Teachers"}
+  == partial text_field, locals: {id: "experience", label: "Performance Experience"}
+  == partial text_field, locals: {id: "comments", label: "Additional Comments"}

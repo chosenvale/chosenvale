@@ -14,14 +14,7 @@ section id="trumpet-application"
     div class="span3"
       p Please fill out all information as accurately as possible.
     div class="span9"
-      form class="form-horizontal"
-        fieldset
-          div class="control-group"
-            label class="control-label" for="name" Full Name
-            div class="controls"
-              input type="text" class="input-xlarge" id="name"
-              p class="help-block" As it appears on your Federal ID or Passport.
-
+      == partial "partials/application/form"
 
 
 section id="percussion-application"
@@ -31,10 +24,4 @@ section id="percussion-application"
     div class="span3"
       p Please fill out all information as accurately as possible.
     div class="span9"
-      form class="form-horizontal"
-        fieldset
-          div class="control-group"
-            label class="control-label" for="name" Full Name
-            div class="controls"
-              input type="text" class="input-xlarge" id="name"
-              p class="help-block" As it appears on your Federal ID or Passport.
+      == partial "partials/application/form"
