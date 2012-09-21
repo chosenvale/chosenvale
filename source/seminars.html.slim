@@ -47,157 +47,31 @@ section id="faculty"
   div class="row"
     div class="span6"
       h3 class="center" Trumpet Faculty
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/brian-mcwhorter.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 Brian McWhorter
-            p = lorem.sentence
-            p
-              a href="#brian_mcwhorter" role="button" class="btn" data-toggle="modal" Biography
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/gabriele-cassone.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 Gabriele Cassone
-            p = lorem.sentence
-            p
-              a href="#" class="btn" Biography
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/hakan-hardenberger.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 Hakan Hardenberger
-            p = lorem.sentence
-            p
-              a href="#" class="btn" Biography
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/markus-stockhausen.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 Markus Stockhausen
-            p = lorem.sentence
-            p
-              a href="#" class="btn" Biography
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/peter-evans.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 Peter Evans
-            p = lorem.sentence
-            p
-              a href="#" class="btn" Biography
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/stephen-burns.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 Stephen Burns
-            p = lorem.sentence
-            p
-              a href="#" class="btn" Biography
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/thomas-stevens.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 Thomas Stevens
-            p = lorem.sentence
-            p
-              a href="#" class="btn" Biography
+      == partial "partials/seminars/faculty_member", locals: {name: "Stephen Burns"}
+      == partial "partials/seminars/faculty_member", locals: {name: "Edward Carroll"}
+      == partial "partials/seminars/faculty_member", locals: {name: "Mark Gould"}
+      == partial "partials/seminars/faculty_member", locals: {name: "Hakan Hardenberger"}
+      == partial "partials/seminars/faculty_member", locals: {name: "Brian McWhorter"}
+      == partial "partials/seminars/faculty_member", locals: {name: "Thomas Stevens"}
     .span6
       h3 class="center" Percussion Faculty
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/colin-currie.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 Colin Currie
-            p = lorem.sentence
-            p
-              a href="#" class="btn" Biography
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/david-lang.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 David Lang
-            p = lorem.sentence
-            p
-              a href="#" class="btn" Biography
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/doug-perkins.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 Doug Perkins
-            p = lorem.sentence
-            p
-              a href="#" class="btn" Biography
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/michael-burritt.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 Michael Burritt
-            p = lorem.sentence
-            p
-              a href="#" class="btn" Biography
+      == partial "partials/seminars/faculty_member", locals: {name: "Michael Burritt"}
+      == partial "partials/seminars/faculty_member", locals: {name: "Colin Currie"}
+      == partial "partials/seminars/faculty_member", locals: {name: "David Lang"}
+      == partial "partials/seminars/faculty_member", locals: {name: "Eduardo Leandro"}
+      == partial "partials/seminars/faculty_member", locals: {name: "Doug Perkins"}
+      == partial "partials/seminars/faculty_member", locals: {name: "Nancy Zeltsman"}
 
 section id="guests"
   h1 Guest Artists & Collaborators
   div class="row"
     div class="span6"
       h3 Trumpet
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/rebecca-wilt.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 Rebecca Wilt
-            p Collaborative Pianist
-            p
-              a href="#" class="btn" Biography
+      == partial "partials/seminars/faculty_member", locals: {name: "Rebecca Wilt"}
     div class="span6"
       h3 Percussion
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/christian-wolff.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 Christian Wolff
-            p Composer in Residence
-            p
-              a href="#" class="btn" Biography
-      ul class="thumbnails"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "faculty/david-rosenboom.jpeg"
-        li class="span3"
-          div class="caption"
-            h4 David Rosenboom
-            p Composer in Residence
-            p
-              a href="#" class="btn" Biography
-      
+      == partial "partials/seminars/faculty_member", locals: {name: "Christian Wolff"}
+      == partial "partials/seminars/faculty_member", locals: {name: "David Rosenboom"}      
 
 
 section id="campus"
@@ -230,7 +104,7 @@ section id="campus"
             a href="http://shakermuseum.org/infowestbrethrensshop.htm" class="btn" target="_blank" History &raquo;
     li class="span3"
       div class="thumbnail"
-        == image_tag lorem.image('260x180')
+        == image_tag "campus/laundry-2.jpeg"
         div class="caption"
           h5 Laundry Building (1813)
           p 

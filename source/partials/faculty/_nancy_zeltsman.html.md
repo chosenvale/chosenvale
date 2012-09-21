@@ -1,0 +1,8 @@
+Nancy Zeltsman is a leading marimba performer, recording artist, teacher, author and festival director. She is Chair of the Percussion Department at The Boston Conservatory, Associate Professor at Berklee College of Music, and Artistic Director of [Zeltsman Marimba Festival, Inc.](http://zmf.us) an annual two-week intensive training seminar and concert series. She has performed and presented master classes across the U.S. as well as in Europe, Japan and Mexico.
+
+Nancy has premiered more than 125 pieces for marimba, including works by Michael Tilson Thomas, Paul Simon, Gunther Schuller, Louis Andriessen, Carla Bley and Steven Mackey. Nearly 80 of these were chamber works composed for the duo marimba/violin duo Marimolin. 
+
+Nancy performed and recorded with violinist Sharan Leventhal from 1985 to 1996. In addition, she has recorded three solo marimba CDs—Sweet Song, See Ya Thursday and Woodcuts—and a duo marimba CD with Jack Van Geem, Pedro and Olga Learn to Dance.
+Zeltsman authored a comprehensive marimba method, Four Mallet Marimba Playing: A Musical Approach for All Levels (Hal Leonard Corporation), issued in 2003. Intermediate Masterworks for Marimba, 24 new solo concert works released in 2009, is the result of a historic joint-commissioning effort organized by Zeltsman and her assistant Shawn Michalek through ZMF New Music. The collection is published in two volumes edited by Zeltsman (C.F. Peters Corporation), and recorded on a double-CD (Bridge Records) performed by eight marimbists including Zeltsman for which she was Executive Producer.
+
+Nancy endorses Marimba One marimbas and her signature line of mallets produced by Encore Mallets. 

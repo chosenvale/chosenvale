@@ -1,0 +1,8 @@
+Doug Perkins specializes in new works for percussion as a chamber musician and soloist. This has taken him to stages and festivals throughout North America and Europe including Carnegie Hall, Lincoln Center, the Brooklyn Academy of Music, the Spoleto USA Festival, and the World Expo in Lisbon, Portugal. He was a founding member of So Percussion and is presently hard at work with the Meehan/ Perkins Duo.
+
+Commissioning and collaborating of new work is important to Doug. To that end, he works regularly with such composers as David Lang, Steve Reich, Paul Lansky, John Luther Adams, Steve Mackey, Nathan Davis, and Larry Polansky. He also performs regularly with groups such as the International Contemporary Ensemble, Alarm Will Sound, Camerata Pacifica, Collage New Music, eighth blackbird, Max Roach’s M’ Boom, and the electronica duo Matmos.
+Doug currently teaches at Dartmouth College where he teaches percussion and directs the Contemporary Music Lab. Additionally, he is the Director of the Annual Festival of New Music and the concert series The Way to Go Out.
+
+Doug received his Bachelor’s degree from the Cincinnati College-Conservatory of Music, Masters and Artist Diploma degrees from Yale University, and his Doctorate from Stony Brook University. His principle percussion teachers were Jack DiIanni, Jim Culley, and Robert Van Sice.
+
+Doug has performed, produced, and conducted on recordings for Cantaloupe Music, Bridge Records, New World Records, Arscenic Free Music, and others. He performs with Vic Firth Drumsticks and Mallets, Pearl/ Adams Musical Instruments, and Black Swamp Percussion accessories.
