@@ -14,5 +14,5 @@ cache_control:
   300:
     - .htm
     - .html
-  3600:
+  31536000:
     - default
