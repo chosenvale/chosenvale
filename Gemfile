@@ -7,9 +7,9 @@ gem 'bootstrap-sass', '~> 2.0.4.2'
 gem 'slim', '~> 1.2.2'
 gem 'redcarpet', '~> 2.1.1'
 
-gem 'middleman-smusher'
-
 gem 'rake', '~> 0.9.2.2'
-gem 'grit', '~> 2.5.0'
+gem 'fog', '~> 1.5.0'
+
 gem 'closync', '~> 0.0.2'
 
+gem 'middleman-smusher'
