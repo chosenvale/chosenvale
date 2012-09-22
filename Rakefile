@@ -3,6 +3,7 @@ require 'grit'
 
 task :check_branch do
   correct_branch = 'develop'
+  puts "Opening repo at #{Dir.pwd}"
   if Grit::Repo.new(Dir.pwd).head.name == correct_branch
     puts "Building the #{correct_branch} branch"
   else
