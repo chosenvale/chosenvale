@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 1em;
+  padding: 1em;
+  color: $navbarInverseText;
+  @include gradient-vertical($navbarInverseBackgroundHighlight, $navbarInverseBackground);
+  border-color: $navbarInverseBorder;
+
+  a {
+    color: $white;
+    &:hover, &:active {
+      color: $white;
+    }
+  }
+}

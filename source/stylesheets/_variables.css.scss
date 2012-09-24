@@ -47,9 +47,9 @@ $navbarInverseBackground:                darken($navbarInverseBackgroundHighligh
 $navbarInverseBorder:                    darken($navbarInverseBackground, 12%);
 
 $navbarInverseText:                      $white;
-$navbarInverseLinkColor:                 $white;
+$navbarInverseLinkColor:                 $white !important;
 $navbarInverseLinkColorHover:            $navbarInverseLinkColor;
 $navbarInverseLinkColorActive:           $navbarInverseLinkColor;
-$navbarInverseLinkBackgroundHover:       mix($navbarInverseBackground, $navbarInverseBackgroundHighlight);
-$navbarInverseLinkBackgroundActive:      $navbarInverseLinkBackgroundHover;
+// $navbarInverseLinkBackgroundHover:       mix($navbarInverseBackground, $navbarInverseBackgroundHighlight);
+// $navbarInverseLinkBackgroundActive:      mix($navbarInverseBackground, $navbarInverseBackgroundHighlight);
 

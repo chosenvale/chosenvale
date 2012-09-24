@@ -1,13 +1,20 @@
 .navbar .nav {
-  & > li > a {
-    border-left: 1px solid $navbarInverseBackgroundHighlight;
-    border-right: 1px solid $navbarInverseBackground;    
+  // desktop and larger
+  @media (min-width: 979px) {
+    > li > a {
+      border-left: 1px solid $navbarInverseBackgroundHighlight;
+      border-right: 1px solid $navbarInverseBackground;    
+    }
+    .active > a, li > a:hover {
+      background-color: mix($navbarInverseBackground, $navbarInverseBackgroundHighlight);
+    }
   }
-  .active > a, .active > a:hover {
-    font-weight: bold;
+  .active > a {
+     &, &:hover {
+      font-weight: bold;
+    }
   }
 }
-
 /* Subnav */
 .subnav {
   width: 100%;
