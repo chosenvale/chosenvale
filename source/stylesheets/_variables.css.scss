@@ -37,6 +37,9 @@ $linkColorHover:        darken($linkColor, 15%) !default;
 $sansFontFamily:        Dosis, sans-serif !default;
 $baseFontSize:          15px;
 $baseLineHeight:        21px;
+// for compass
+$base-font-size:        $baseFontSize;
+$base-line-height:      $baseLineHeight;
 
 
 // Navbar
@@ -50,6 +53,4 @@ $navbarInverseText:                      $white;
 $navbarInverseLinkColor:                 $white !important;
 $navbarInverseLinkColorHover:            $navbarInverseLinkColor;
 $navbarInverseLinkColorActive:           $navbarInverseLinkColor;
-// $navbarInverseLinkBackgroundHover:       mix($navbarInverseBackground, $navbarInverseBackgroundHighlight);
-// $navbarInverseLinkBackgroundActive:      mix($navbarInverseBackground, $navbarInverseBackgroundHighlight);
 

@@ -3,7 +3,7 @@
 @import 'bootstrap'; // see https://github.com/thomas-mcdonald/bootstrap-sass
 
 body {
-  padding-top:    60px;
+  padding-top:    4.2em;
 }
 
 .affix {
@@ -13,4 +13,4 @@ body {
 @import 'bootstrap-responsive';
 @import 'nav';
 @import 'footer';
-
+@import 'vertical_rhythm';
