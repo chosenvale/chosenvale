@@ -1,0 +1,55 @@
+// Theme-specific colors
+// -------------------------
+$cv-red:                #E41910;
+
+
+// Grays
+// -------------------------
+$black:                 #000 !default;
+$grayDarker:            #222 !default;
+$grayDark:              #333 !default;
+$gray:                  #555 !default;
+$grayLight:             #999 !default;
+$grayLighter:           #eee !default;
+$white:                 #fff !default;
+
+
+// Accent colors
+// -------------------------
+$blue:                  #049cdb !default;
+$blueDark:              #0064cd !default;
+$green:                 #46a546 !default;
+$red:                   #9d261d !default;
+$yellow:                #ffc40d !default;
+$orange:                #f89406 !default;
+$pink:                  #c3325f !default;
+$purple:                #7a43b6 !default;
+
+
+// Links
+// -------------------------
+$linkColor:             $cv-red;
+$linkColorHover:        darken($linkColor, 15%) !default;
+
+
+// Typography
+// -------------------------
+$sansFontFamily:        Dosis, sans-serif !default;
+$baseFontSize:          15px;
+$baseLineHeight:        21px;
+
+
+// Navbar
+// -------------------------
+$navbarHeight:                    60px;
+$navbarBackgroundHighlight:       $cv-red;
+$navbarBackground:                darken($navbarBackgroundHighlight, 8%);
+$navbarBorder:                    darken($navbarBackground, 12%);
+
+$navbarText:                      $white;
+$navbarLinkColor:                 $white;
+$navbarLinkColorHover:            $navbarLinkColor;
+$navbarLinkColorActive:           $navbarLinkColor;
+$navbarLinkBackgroundHover:       mix($navbarBackground, $navbarBackgroundHighlight);
+$navbarLinkBackgroundActive:      $navbarLinkBackgroundHover;
+
