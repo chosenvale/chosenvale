@@ -42,14 +42,14 @@ $baseLineHeight:        21px;
 // Navbar
 // -------------------------
 $navbarHeight:                    60px;
-$navbarBackgroundHighlight:       $cv-red;
-$navbarBackground:                darken($navbarBackgroundHighlight, 8%);
-$navbarBorder:                    darken($navbarBackground, 12%);
+$navbarInverseBackgroundHighlight:       $cv-red;
+$navbarInverseBackground:                darken($navbarInverseBackgroundHighlight, 8%);
+$navbarInverseBorder:                    darken($navbarInverseBackground, 12%);
 
-$navbarText:                      $white;
-$navbarLinkColor:                 $white;
-$navbarLinkColorHover:            $navbarLinkColor;
-$navbarLinkColorActive:           $navbarLinkColor;
-$navbarLinkBackgroundHover:       mix($navbarBackground, $navbarBackgroundHighlight);
-$navbarLinkBackgroundActive:      $navbarLinkBackgroundHover;
+$navbarInverseText:                      $white;
+$navbarInverseLinkColor:                 $white;
+$navbarInverseLinkColorHover:            $navbarInverseLinkColor;
+$navbarInverseLinkColorActive:           $navbarInverseLinkColor;
+$navbarInverseLinkBackgroundHover:       mix($navbarInverseBackground, $navbarInverseBackgroundHighlight);
+$navbarInverseLinkBackgroundActive:      $navbarInverseLinkBackgroundHover;
 

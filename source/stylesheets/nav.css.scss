@@ -1,7 +1,7 @@
 .navbar .nav {
   & > li > a {
-    border-left: 1px solid $navbarBackgroundHighlight;
-    border-right: 1px solid $navbarBackground;    
+    border-left: 1px solid $navbarInverseBackgroundHighlight;
+    border-right: 1px solid $navbarInverseBackground;    
   }
   .active > a, .active > a:hover {
     font-weight: bold;
