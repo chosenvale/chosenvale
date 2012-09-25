@@ -4,22 +4,12 @@ header class="jumbotron subhead" id="overview"
     | When you're ready, 
     a href="/application.html" target="_blank" apply online
     | .
-  div class="subnav"
+  .subnav.hidden-phone
     ul class="nav nav-pills"
-      li
-        a href="#fees" Fees
-      li
-        a href="#deadlines" Deadlines
-      li
-        a href="#bursaries" Bursaries
-      li
-        a href="#references" References
-      li
-        a href="#auditions" Auditions
-      li
-        a href="#acceptance" Acceptance
-      li
-        a href="#waitlist" Waitlist
+      == partial "partials/admission/subnav"
+  .mobile-subnav.visible-phone
+    ul class="nav nav-list"
+      == partial "partials/admission/subnav"
 
 section id="fees"
   h1 Fees

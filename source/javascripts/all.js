@@ -12,26 +12,18 @@
     // Activate all buttons
     $('div.btn-group').button();
 
-    // affix sub nav on scroll
-    var $win = $(window)
-      , $nav = $('.subnav')
-      , navTop = $('.subnav').length && $('.subnav').offset().top - 60
-      , isFixed = 0
+    // Trigger subnav affix with custom offset:
+    //  - Main menu sticky on desktop but not on tablet
+    var $offset = $('.subnav').offset().top
+      , $offmin = $offset - $('.navbar').height()
 
-    processScroll()
-
-    $win.on('scroll', processScroll)
-
-    function processScroll() {
-      var i, scrollTop = $win.scrollTop()
-      if (scrollTop >= navTop && !isFixed) {
-        isFixed = 1
-        $nav.addClass('subnav-fixed')
-      } else if (scrollTop <= navTop && isFixed) {
-        isFixed = 0
-        $nav.removeClass('subnav-fixed')
+    $('.subnav').affix({
+      offset: {
+        top: function () { 
+          return $(window).width() > 890 ? $offmin : $offmin+$('.navbar').height()
+        }
       }
-    }
+    })      
 
   })
 

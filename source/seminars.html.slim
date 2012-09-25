@@ -4,20 +4,12 @@ header class="jumbotron subhead" id="overview"
   p class="lead"
     | Inspire and challenge participants with exceptional opportunities for musical and artistic growth through public performances, masterclasses, lectures, workshops, and communal discussions.
 
-  div class="subnav"
+  .subnav.hidden-phone
     ul class="nav nav-pills"
-      li
-        a href="#schedule" Dates
-      li
-        a href="#faculty" Faculty
-      li
-        a href="#guests" Guests
-      li
-        a href="#campus" Campus
-      li
-        a href="#accommodation" Accommodation
-      li
-        a href="#apply" Apply
+      == partial "partials/seminars/subnav"
+  .mobile-subnav.visible-phone
+    ul class="nav nav-list"
+      == partial "partials/seminars/subnav"
 
 
 
