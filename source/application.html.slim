@@ -1,13 +1,13 @@
 header class="jumbotron subhead" id="overview"
   h1 Apply
   p class="lead" to the Center for Advanced Musical Studies at Chosen Vale.
-  div class="btn-group" data-toggle="buttons-radio"
-    button class="btn btn-primary" Trumpet
-    button class="btn btn-primary" Percussion
+  div id="active-application" class="btn-group" data-toggle="buttons-radio"
+    button id="trumpet" class="btn btn-primary" Trumpet
+    button id="percussion" class="btn btn-primary" Percussion
 
 
 
-section id="trumpet-application"
+section id="trumpet-application" class="hidden"
   h1 2012 International Trumpet Seminar
   h3 Application Form
   div class="row"
@@ -17,7 +17,7 @@ section id="trumpet-application"
       == partial "partials/application/form"
 
 
-section id="percussion-application"
+section id="percussion-application" class="hidden"
   h1 2012 International Percussion Seminar
   h3 Application Form
   div class="row"
