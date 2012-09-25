@@ -25,6 +25,14 @@
       }
     })      
 
+    // event handler for subnav scrolling
+    var offset = 102;
+    $('.subnav li a').click(function(event) {
+        event.preventDefault();
+        $($(this).attr('href'))[0].scrollIntoView();
+        scrollBy(0, -offset);
+    });
+
   })
 
 }(window.jQuery)
