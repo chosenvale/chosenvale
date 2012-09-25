@@ -6,11 +6,20 @@ body {
   padding-top:    4.2em;
 }
 
-.affix {
-  position: fixed;
-}
-
 @import 'bootstrap-responsive';
 @import 'nav';
 @import 'footer';
 @import 'vertical_rhythm';
+
+// Seminars page
+// -------------------------
+section#faculty, section#guests {
+  h1 {text-align: center}
+  h3 {text-align: center}
+  .modal-body img {float: right}
+  a.thumbnail {
+    h4 {margin: 0}
+    button {float: right; position: relative; top: 6px}
+    &:hover, &:active {text-decoration: none}
+  }
+}

@@ -19,7 +19,7 @@ body {
   h2 { @include adjust-font-size-to(30px); @include leader(1, 30px); }
   h3 { @include adjust-font-size-to(24px); @include leader(1, 24px); }
   h4 { @include adjust-font-size-to(18px); @include leader(1, 18px); }
-  p { @include leader(1); }
+  p { @include trailer(1); }
 
   .subnav { margin-bottom: 3px; }
 }

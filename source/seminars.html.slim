@@ -23,55 +23,70 @@ header class="jumbotron subhead" id="overview"
 
 section id="schedule" class="row"
   div class="span6"
+    h1 class="center" Trumpet Seminar
+    h3 class="center" from June 18th to 30th, 2012
     ul class="thumbnails"
       li class="span6"
         div class="thumbnail"
           == image_tag "support/trumpet-seminar.jpg"
-    h1 class="center" Trumpet Seminar
-    h3 class="center" from June 18th to 30th, 2012
 
   div class="span6"
+    h1 class="center" Percussion Seminar
+    h3 class="center" from July 2nd to 14th, 2012
     ul class="thumbnails"
       li class="span6"
         div class="thumbnail"
           == image_tag "support/percussion-seminar.jpg"
-    h1 class="center" Percussion Seminar
-    h3 class="center" from July 2nd to 14th, 2012
 
 
 
 section id="faculty"
-  div class="row"
-    div class="span12"
-      h1 class="center" Faculty of Visionary Leaders
-  div class="row"
-    div class="span6"
-      h3 class="center" Trumpet Faculty
-      == partial "partials/seminars/faculty_member", locals: {name: "Stephen Burns"}
-      == partial "partials/seminars/faculty_member", locals: {name: "Edward Carroll"}
-      == partial "partials/seminars/faculty_member", locals: {name: "Mark Gould"}
-      == partial "partials/seminars/faculty_member", locals: {name: "Hakan Hardenberger"}
-      == partial "partials/seminars/faculty_member", locals: {name: "Brian McWhorter"}
-      == partial "partials/seminars/faculty_member", locals: {name: "Thomas Stevens"}
+  .row
+    .span12
+      h1 Faculty of Visionary Leaders
+  .row
     .span6
-      h3 class="center" Percussion Faculty
-      == partial "partials/seminars/faculty_member", locals: {name: "Michael Burritt"}
-      == partial "partials/seminars/faculty_member", locals: {name: "Colin Currie"}
-      == partial "partials/seminars/faculty_member", locals: {name: "David Lang"}
-      == partial "partials/seminars/faculty_member", locals: {name: "Eduardo Leandro"}
-      == partial "partials/seminars/faculty_member", locals: {name: "Doug Perkins"}
-      == partial "partials/seminars/faculty_member", locals: {name: "Nancy Zeltsman"}
+      .row
+        .span6
+          h3 Trumpet Faculty
+      .row
+        .span3
+          == partial "partials/seminars/faculty_member", locals: {name: "Stephen Burns"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Edward Carroll"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Mark Gould"}
+        .span3
+          == partial "partials/seminars/faculty_member", locals: {name: "Hakan Hardenberger"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Brian McWhorter"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Thomas Stevens"}
+    .span6
+      .row
+        .span6
+          h3 Percussion Faculty
+      .row
+        .span3
+          == partial "partials/seminars/faculty_member", locals: {name: "Michael Burritt"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Colin Currie"}
+          == partial "partials/seminars/faculty_member", locals: {name: "David Lang"}
+        .span3
+          == partial "partials/seminars/faculty_member", locals: {name: "Eduardo Leandro"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Doug Perkins"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Nancy Zeltsman"}
 
 section id="guests"
   h1 Guest Artists & Collaborators
-  div class="row"
-    div class="span6"
+  .row
+    .span6
       h3 Trumpet
       == partial "partials/seminars/faculty_member", locals: {name: "Rebecca Wilt"}
-    div class="span6"
-      h3 Percussion
-      == partial "partials/seminars/faculty_member", locals: {name: "Christian Wolff"}
-      == partial "partials/seminars/faculty_member", locals: {name: "David Rosenboom"}      
+    .span6
+      .row
+        .span6
+          h3 Percussion
+      .row
+        .span3
+          == partial "partials/seminars/faculty_member", locals: {name: "Christian Wolff"}
+        .span3
+          == partial "partials/seminars/faculty_member", locals: {name: "David Rosenboom"}      
 
 
 section id="campus"
