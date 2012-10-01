@@ -1,0 +1,13 @@
+- img = name.strip.gsub(/\s+/, "-").downcase
+- id = name.camelize.gsub(/\s+/, "")
+
+div class="bio"
+  ul class="thumbnails"
+    li class="span6"
+      a data-toggle="modal" href="##{id}" class="thumbnail"
+        == image_tag "faculty/#{img}.jpg", class: "img-rounded"
+        / == image_tag lorem.image('560x200'), class: "img-rounded"
+        button class="btn" Bio
+        h4 = name
+        h5 = position
+  == partial "partials/seminars/biography", locals: {name: name, id: id, img: img}

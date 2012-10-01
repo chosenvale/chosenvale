@@ -45,11 +45,12 @@ section id="faculty"
         .span3
           == partial "partials/seminars/faculty_member", locals: {name: "Stephen Burns"}
           == partial "partials/seminars/faculty_member", locals: {name: "Edward Carroll"}
-          == partial "partials/seminars/faculty_member", locals: {name: "Mark Gould"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Gabriele Cassone"}
         .span3
-          == partial "partials/seminars/faculty_member", locals: {name: "Hakan Hardenberger"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Mark Gould"}
           == partial "partials/seminars/faculty_member", locals: {name: "Brian McWhorter"}
           == partial "partials/seminars/faculty_member", locals: {name: "Thomas Stevens"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Unknown Trumpeter"}
     .span6
       .row
         .span6
@@ -57,28 +58,24 @@ section id="faculty"
       .row
         .span3
           == partial "partials/seminars/faculty_member", locals: {name: "Michael Burritt"}
-          == partial "partials/seminars/faculty_member", locals: {name: "Colin Currie"}
-          == partial "partials/seminars/faculty_member", locals: {name: "David Lang"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Matthew Duvall"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Tim Feeney"}
         .span3
           == partial "partials/seminars/faculty_member", locals: {name: "Eduardo Leandro"}
           == partial "partials/seminars/faculty_member", locals: {name: "Doug Perkins"}
-          == partial "partials/seminars/faculty_member", locals: {name: "Nancy Zeltsman"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Robert Van Sice"}
+          == partial "partials/seminars/faculty_member", locals: {name: "Cynthia Yeh"}
 
 section id="guests"
   h1 Guest Artists & Collaborators
   .row
     .span6
       h3 Trumpet
-      == partial "partials/seminars/faculty_member", locals: {name: "Rebecca Wilt"}
+      == partial "partials/seminars/guest_artist", locals: {name: "Rebecca Wilt", position: "Collaborative Pianist"}
     .span6
-      .row
-        .span6
-          h3 Percussion
-      .row
-        .span3
-          == partial "partials/seminars/faculty_member", locals: {name: "Christian Wolff"}
-        .span3
-          == partial "partials/seminars/faculty_member", locals: {name: "David Rosenboom"}      
+      h3 Percussion
+      == partial "partials/seminars/guest_artist", locals: {name: "Glenn Kotche", position: "Composer in Residence"}
+        
 
 
 section id="campus"
