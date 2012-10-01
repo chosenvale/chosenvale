@@ -11,22 +11,22 @@ div id="myCarousel" class="carousel slide"
   div class="carousel-inner"
 
     div class="active item"
-      == image_tag lorem.image('1170x448')
+      == image_tag 'support/banner-2.jpg'
+      div class="carousel-caption"
+        h4 = lorem.words(2).titlecase
+        p Public performances, masterclasses, lectures, workshops, and communal discussions.
+
+    div class="item"
+      == image_tag 'support/banner-1.jpg'
       div class="carousel-caption"
         h4 = lorem.words(2).titlecase
         p = lorem.paragraph
 
-    div class="item"
-      == image_tag lorem.image('1170x448')
-      div class="carousel-caption"
-        h4 = lorem.words(2).titlecase
-        p = lorem.paragraph
-
-    div class="item"
-      == image_tag lorem.image('1170x448')
-      div class="carousel-caption"
-        h4 = lorem.words(2).titlecase
-        p = lorem.paragraph
+    / div class="item"
+    /   == image_tag lorem.image('1170x448')
+    /   div class="carousel-caption"
+    /     h4 = lorem.words(2).titlecase
+    /     p = lorem.paragraph
 
   a class="carousel-control left" href="#myCarousel" data-slide="prev" &lsaquo;
   a class="carousel-control right" href="#myCarousel" data-slide="next" &rsaquo;
