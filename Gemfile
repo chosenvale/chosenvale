@@ -13,3 +13,4 @@ gem 'fog', '~> 1.5.0'
 gem 'closync', '~> 0.0.2'
 
 gem 'middleman-smusher'
+gem 'middleman-livereload'

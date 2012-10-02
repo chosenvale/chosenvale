@@ -45,6 +45,9 @@ set :markdown_engine, :redcarpet
 # Helpers
 ###
 
+# Livereload in development
+activate :livereload
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
