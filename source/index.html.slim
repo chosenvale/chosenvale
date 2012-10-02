@@ -7,27 +7,46 @@ title: Home - CAMS at Chosen Vale
 /   p Describe.
 /   a class="btn btn-primary btn-large" Learn more »
 
-div id="myCarousel" class="carousel slide" data-interval="false"
-  div class="carousel-inner"
+.row
+  .span8
+    div id="main-carousel" class="carousel slide" data-interval="5000"
+      div class="carousel-inner"
+        div class="active item"
+          == image_tag 'support/banner-2.jpg'
+          div class="carousel-caption"
+            h4 Total Immersion
+            p Thrive alongside internationally renowned faculty in a highly creative and supportive environment of honesty, obsession, and love for music making. Musicians come to Chosen Vale to discover their unique artistic voice through collaboration in an intense yet supportive atmosphere; one which values innovation and evolution.
 
-    div class="active item"
-      == image_tag 'support/banner-2.jpg'
-      div class="carousel-caption"
-        h4 Total Immersion
-        p Thrive alongside internationally renowned faculty in a highly creative and supportive environment of honesty, obsession, and love for music making. Musicians come to Chosen Vale to discover their unique artistic voice through collaboration in an intense yet supportive atmosphere; one which values innovation and evolution.
+        div class="item"
+          == image_tag 'support/banner-1.jpg'
+          div class="carousel-caption"
+            h4 Chosen Vale
+            p A place where participants are challenged to look beyond what he or she has already studied and grow in unexpected musical ways. Participants are asked to work outside their own self-defined “comfort zone”, to take new risks, and to accept personal responsibility for their technical and musical growth.
 
-    div class="item"
-      == image_tag 'support/banner-1.jpg'
-      div class="carousel-caption"
-        h4 Chosen Vale
-        p A place where participants are challenged to look beyond what he or she has already studied and grow in unexpected musical ways. Participants are asked to work outside their own self-defined “comfort zone”, to take new risks, and to accept personal responsibility for their technical and musical growth.
+        / div class="item"
+        /   == image_tag lorem.image('1170x448')
+        /   div class="carousel-caption"
+        /     h4 = lorem.words(2).titlecase
+        /     p = lorem.paragraph
 
-    / div class="item"
-    /   == image_tag lorem.image('1170x448')
-    /   div class="carousel-caption"
-    /     h4 = lorem.words(2).titlecase
-    /     p = lorem.paragraph
-
-  a class="carousel-control left" href="#myCarousel" data-slide="prev" &lsaquo;
-  a class="carousel-control right" href="#myCarousel" data-slide="next" &rsaquo;
-
+      a class="carousel-control left" href="#main-carousel" data-slide="prev" &lsaquo;
+      a class="carousel-control right" href="#main-carousel" data-slide="next" &rsaquo;
+  .span4
+    ul id="main-carousel-control"
+      li
+        a class="slide-1 btn btn-large" href="/seminars.html" Total Immersion
+      li
+        a class="slide-2 btn btn-large" href="/admission.html" Chosen Vale
+    javascript:
+      $('#main-carousel').carousel('cycle');
+      $('#main-carousel-control a.slide-1').mouseenter(function() {
+        $('#main-carousel').carousel('pause');
+        $('#main-carousel').carousel(0);
+      });
+      $('#main-carousel-control a.slide-2').mouseenter(function() {
+        $('#main-carousel').carousel('pause');
+        $('#main-carousel').carousel(1);
+      });
+      $('#main-carousel-control').mouseleave(function(){
+        $('#main-carousel').carousel('cycle');
+      });
