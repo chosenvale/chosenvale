@@ -2,7 +2,7 @@
 
 form class="form-horizontal"
   == partial text_field, locals: {id: "name", label: "Full Name", description: "As it appears on your Federal ID or Passport."}
-  == partial text_field, locals: {id: "birthday", label: "Date of Birth", description: "In Month/Day/Year format."}
+  == partial text_field, locals: {id: "birthday", label: "Date of Birth", placeholder: "mm/dd/yyyy"}
   == partial text_field, locals: {id: "email", label: "Email Address", description: "No spam, we promise."}
   == partial text_field, locals: {id: "telephone", label: "Telephone Number", description: "You will be notified by phone of your acceptance.", placeholder: "+1-555-123-1234"}
   == partial text_field, locals: {id: "current_address", label: "Current Address"}
