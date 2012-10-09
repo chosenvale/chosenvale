@@ -17,19 +17,25 @@ title: Home - CAMS at Chosen Vale
             h4 Total Immersion
             p Thrive in a supportive environment of honesty, creativity, and an obsessive love for music making.
         div class="item"
-          == image_tag 'support/banner-3.jpg'
+          == image_tag 'support/banner-4.jpg'
           div class="carousel-caption"
-            h4 Colin Currie Percussion Scholarship
+            h4 International Faculty
+            p Work alongside internationally renowned faculty members and guest artists.
         div class="item"
           == image_tag 'support/banner-1.jpg'
           div class="carousel-caption"
             h4 Performance Opportunities 
             p Participants are challenged to take chances and grow in unexpected musical ways.
         div class="item"
-          == image_tag 'support/banner-4.jpg'
+          == image_tag 'support/banner-5.jpg'
           div class="carousel-caption"
-            h4 International Faculty
-            p Work alongside internationally renowned faculty members and guest artists.
+            h4 New Photo
+            p New text goes here.
+        div class="item"
+          == image_tag 'support/banner-3.jpg'
+          div class="carousel-caption"
+            h4 Colin Currie Percussion Scholarship
+
         / div class="item"
         /   == image_tag lorem.image('1170x448')
         /   div class="carousel-caption"
@@ -43,11 +49,14 @@ title: Home - CAMS at Chosen Vale
       li
         a class="slide-1 btn btn-large" href="/seminars.html" Total Immersion
       li
-        a class="slide-2 btn btn-large" href="/admission.html" Colin Currie Percussion Scholarship
+        a class="slide-2 btn btn-large" href="/seminars.html" International Faculty
       li
         a class="slide-3 btn btn-large" href="/admission.html" Performance Opportunities
       li
-        a class="slide-4 btn btn-large" href="/seminars.html" International Faculty
+        a class="slide-4 btn btn-large" href="/seminars.html" New Photo
+      li
+        a class="slide-5 btn btn-large" href="/admission.html" Colin Currie Percussion Scholarship
+
     javascript:
       $('#main-carousel').carousel('cycle');
       $('#main-carousel-control a.slide-1').mouseenter(function() {
@@ -65,6 +74,10 @@ title: Home - CAMS at Chosen Vale
       $('#main-carousel-control a.slide-4').mouseenter(function() {
         $('#main-carousel').carousel('pause');
         $('#main-carousel').carousel(3);
+      });
+      $('#main-carousel-control a.slide-5').mouseenter(function() {
+        $('#main-carousel').carousel('pause');
+        $('#main-carousel').carousel(4);
       });
 .row
   .span12
