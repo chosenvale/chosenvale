@@ -1,0 +1,1 @@
+The Stone Mill was constructed in 1849 after its predecessor burned down on the same site. It contained three stories of water powered machinery for a variety of trades.

@@ -1,0 +1,5 @@
+The Church Family Laundry and Dairy buildings stood in the second row of buildings, and were the domain of the Sisters. The Dairy, the two-story building with the cupola in the photo, was originally constructed as a one-story building in 1813. A second story was added in 1825, and an addition was made to the east side of the building later. The cupola was part of a ventilation system designed to keep the building cool, a necessity in the production of dairy products.
+
+The Laundry building was originally a two-story structure built in 1813. In 1833 a large addition was made to the east side and the entire third story was added. This addition contained water-powered machinery, fed with water from the mill pond behind the Stone Mill on the west side of the main road. The drying room was heated by steam provided by a boiler in the 1854 Cow Barn.
+
+The long single story addition to the Dairy was constructed in 1944 by the La Salette Brothers and has had a variety of uses, most recently serving as the home of the Museum Store.

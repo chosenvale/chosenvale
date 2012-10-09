@@ -1,0 +1,5 @@
+The Great Stone Dwelling, completed in 1841, was the Church family's primary residence and the greatest architectural achievement of the Enfield Shakers. Its presence was imposing, as seen in this historic photo taken from the Stone Mill Building.
+
+The first floor is primarily dedicated to preparing and eating the community's meals. The second floor housed the Meeting Room as well as 4 dwelling rooms. The third and fourth floors contained 8 dwelling rooms per floor, each room measuring approximately 20' x 20'. The fifth and sixth floor attic spaces were storage and work space.
+
+In addition to the above mentioned rooms, a stunning array of built in drawers and cupboards, closets, and pegrails are found throughout the building. In short, it contained all the innovations the Shakers could conceive of to make their temporal home the reflection of the spiritual perfection they pursued in their communal lives here in Enfield.
