@@ -82,39 +82,11 @@ section id="campus"
   h1 Campus
   br
   ul class="thumbnails"
-    li class="span6"
-      div class="thumbnail"
-        == image_tag "campus/stone-mill-1.jpg"
-        div class="caption"
-          h5 The Stone Mill (1849)
-          p Masterclasses, lectures, and communal discussion.
-          p
-            a href="http://shakermuseum.org/infostonemillbuilding.htm" class="btn" target="_blank" History &raquo;
-    li class="span6"
-      div class="thumbnail"
-        == image_tag "campus/mary-keane-chapel.jpg"
-        div class="caption"
-          h5 Mary Keane Chapel (1932)
-          p A spectacular venue for public concerts. 
-          p
-            a href="http://shakermuseum.org/infomarykeanechapel.htm" class="btn" target="_blank" History &raquo;
+    == partial 'partials/seminars/campus_building', locals: {name: "The Stone Mill", year: "1849", description: "Masterclasses, lectures, and communal discussion."}
+    == partial 'partials/seminars/campus_building', locals: {name: "Mary Keane Chapel", year: "1932", description: "A spectacular venue for public concerts."}
   ul class="thumbnails"
-    li class="span6"
-      div class="thumbnail"
-        == image_tag "campus/laundry-3.jpg"
-        div class="caption"
-          h5 West Brethren’s Shop (1820)
-          p Lessons, workshops, and practice rooms.
-          p
-            a href="http://shakermuseum.org/infowestbrethrensshop.htm" class="btn" target="_blank" History &raquo;
-    li class="span6"
-      div class="thumbnail"
-        == image_tag "campus/laundry-2.jpg"
-        div class="caption"
-          h5 Laundry Building (1813)
-          p Practice rooms.
-          p
-            a href="http://shakermuseum.org/infolaundrydairy.htm" class="btn" target="_blank" History &raquo;
+    == partial 'partials/seminars/campus_building', locals: {name: "West Brethren's Shop", year: "1820", description: "Lessons, workshops, and practice rooms."}
+    == partial 'partials/seminars/campus_building', locals: {name: "Laundry Building", year: "1813", description: "Practice rooms."}
 
 
 
@@ -141,15 +113,7 @@ section id="accommodation"
             == image_tag "campus/gsd-inside-1.jpg"
     div class="span6"
       ul class="thumbnails"
-        li class="span6"
-          div class="thumbnail"
-            == image_tag "campus/gsd-outside.jpg"
-            div class="caption"
-              h5 Great Stone Dwelling (1841)
-              p 
-                | Participants and faculty live and dine together in this historic building.
-              p
-                a href="http://shakermuseum.org/infogreatstonedwelling.htm" class="btn" target="_blank" History &raquo;
+        == partial 'partials/seminars/campus_building', locals: {name: "Great Stone Dwelling", year: "1841", description: "Participants and faculty live and dine together in this historic building."}
 
 
 
