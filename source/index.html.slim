@@ -32,6 +32,11 @@ title: Home - CAMS at Chosen Vale
             h4 New Photo
             p New text goes here.
         div class="item"
+          == image_tag 'support/banner-6.jpg'
+          div class="carousel-caption"
+            h4 New Photo 2
+            p New text 2 goes here.
+        div class="item"
           == image_tag 'support/banner-3.jpg'
           div class="carousel-caption"
             h4 Colin Currie Percussion Scholarship
@@ -55,7 +60,9 @@ title: Home - CAMS at Chosen Vale
       li
         a class="slide-4 btn btn-large" href="/seminars.html" New Photo
       li
-        a class="slide-5 btn btn-large" href="/admission.html" Colin Currie Percussion Scholarship
+        a class="slide-5 btn btn-large" href="/seminars.html" New Photo 2
+      li
+        a class="slide-6 btn btn-large" href="/admission.html" Colin Currie Percussion Scholarship
 
     javascript:
       $('#main-carousel').carousel('cycle');
@@ -78,6 +85,10 @@ title: Home - CAMS at Chosen Vale
       $('#main-carousel-control a.slide-5').mouseenter(function() {
         $('#main-carousel').carousel('pause');
         $('#main-carousel').carousel(4);
+      });
+      $('#main-carousel-control a.slide-6').mouseenter(function() {
+        $('#main-carousel').carousel('pause');
+        $('#main-carousel').carousel(5);
       });
 .row
   .span12
