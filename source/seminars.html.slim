@@ -63,7 +63,6 @@ section id="faculty"
         .span3
           == partial "partials/seminars/faculty_member", locals: {name: "Eduardo Leandro"}
           == partial "partials/seminars/faculty_member", locals: {name: "Doug Perkins"}
-          == partial "partials/seminars/faculty_member", locals: {name: "Robert Van Sice"}
           == partial "partials/seminars/faculty_member", locals: {name: "Cynthia Yeh"}
 
 section id="guests"
@@ -86,7 +85,7 @@ section id="campus"
     == partial 'partials/seminars/campus_building', locals: {name: "Mary Keane Chapel", year: "1932", description: "A spectacular venue for public concerts."}
   ul class="thumbnails"
     == partial 'partials/seminars/campus_building', locals: {name: "West Brethren's Shop", year: "1820", description: "Lessons, workshops, and practice rooms."}
-    == partial 'partials/seminars/campus_building', locals: {name: "Laundry Building", year: "1813", description: "Practice rooms."}
+    == partial 'partials/seminars/campus_building', locals: {name: "Laundry and Dairy Building", year: "1813", description: "Practice rooms."}
 
 
 
@@ -97,8 +96,7 @@ section id="accommodation"
     div class="span6"
       h4 Amenities
       ul
-        li wifi
-        li local phones (calling card necessary)
+        li wifi and 3G converage 
         li private bathroom with shower 
         li linens: bedding, pillows, towels
       h4 Meals
@@ -115,6 +113,13 @@ section id="accommodation"
       ul class="thumbnails"
         == partial 'partials/seminars/campus_building', locals: {name: "Great Stone Dwelling", year: "1841", description: "Participants and faculty live and dine together in this historic building."}
 
+
+section id="dress"
+  h1 Dress
+  p
+    | Dresscode is casual at all seminar events except when performing in concerts and masterclasses. Performance attire left to the discretion of each individual performer. 
+  p
+    | Temperatures range from 50-90F. 
 
 
 section id="apply"

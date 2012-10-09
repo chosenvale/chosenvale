@@ -15,13 +15,31 @@ title: Home - CAMS at Chosen Vale
           == image_tag 'support/banner-2.jpg'
           div class="carousel-caption"
             h4 Total Immersion
-            p Thrive alongside internationally renowned faculty in a highly creative and supportive environment of honesty, obsession, and love for music making. Musicians come to Chosen Vale to discover their unique artistic voice through collaboration in an intense yet supportive atmosphere; one which values innovation and evolution.
-
+            p Thrive in a supportive environment of honesty, creativity, and an obsessive love for music making.
+        div class="item"
+          == image_tag 'support/banner-4.jpg'
+          div class="carousel-caption"
+            h4 International Faculty
+            p Work alongside internationally renowned faculty members and guest artists.
         div class="item"
           == image_tag 'support/banner-1.jpg'
           div class="carousel-caption"
-            h4 Chosen Vale
-            p A place where participants are challenged to look beyond what he or she has already studied and grow in unexpected musical ways. Participants are asked to work outside their own self-defined “comfort zone”, to take new risks, and to accept personal responsibility for their technical and musical growth.
+            h4 Performance Opportunities 
+            p Participants are challenged to take chances and grow in unexpected musical ways.
+        div class="item"
+          == image_tag 'support/banner-5.jpg'
+          div class="carousel-caption"
+            h4 New Photo
+            p New text goes here.
+        div class="item"
+          == image_tag 'support/banner-6.jpg'
+          div class="carousel-caption"
+            h4 New Photo 2
+            p New text 2 goes here.
+        div class="item"
+          == image_tag 'support/banner-3.jpg'
+          div class="carousel-caption"
+            h4 Colin Currie Percussion Scholarship
 
         / div class="item"
         /   == image_tag lorem.image('1170x448')
@@ -36,7 +54,16 @@ title: Home - CAMS at Chosen Vale
       li
         a class="slide-1 btn btn-large" href="/seminars.html" Total Immersion
       li
-        a class="slide-2 btn btn-large" href="/admission.html" Chosen Vale
+        a class="slide-2 btn btn-large" href="/seminars.html" International Faculty
+      li
+        a class="slide-3 btn btn-large" href="/admission.html" Performance Opportunities
+      li
+        a class="slide-4 btn btn-large" href="/seminars.html" New Photo
+      li
+        a class="slide-5 btn btn-large" href="/seminars.html" New Photo 2
+      li
+        a class="slide-6 btn btn-large" href="/admission.html" Colin Currie Percussion Scholarship
+
     javascript:
       $('#main-carousel').carousel('cycle');
       $('#main-carousel-control a.slide-1').mouseenter(function() {
@@ -47,6 +74,28 @@ title: Home - CAMS at Chosen Vale
         $('#main-carousel').carousel('pause');
         $('#main-carousel').carousel(1);
       });
-      $('#main-carousel-control').mouseleave(function(){
-        $('#main-carousel').carousel('cycle');
+      $('#main-carousel-control a.slide-3').mouseenter(function() {
+        $('#main-carousel').carousel('pause');
+        $('#main-carousel').carousel(2);
       });
+      $('#main-carousel-control a.slide-4').mouseenter(function() {
+        $('#main-carousel').carousel('pause');
+        $('#main-carousel').carousel(3);
+      });
+      $('#main-carousel-control a.slide-5').mouseenter(function() {
+        $('#main-carousel').carousel('pause');
+        $('#main-carousel').carousel(4);
+      });
+      $('#main-carousel-control a.slide-6').mouseenter(function() {
+        $('#main-carousel').carousel('pause');
+        $('#main-carousel').carousel(5);
+      });
+.row
+  .span12
+    .feature 
+      em The Center for Advanced Musical Studies 
+      | has quietly crept into the music world’s consciousness over the past seven seasons as an institution devoted to 
+      strong artistic excellence 
+      | and to developing new musical leaders. Master artists live together in an atmosphere of total immersion with exceptional young musicians. The result is an astonishing level of 
+      strong musical awareness, 
+      | described by many as giving more to them than they typically receive in a full year of college.
