@@ -1,5 +1,4 @@
 //= require jquery
-//= require jquery.validate.js
 //= require bootstrap
 //= require_tree .
 
