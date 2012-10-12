@@ -1,16 +1,51 @@
+section id="sponsors"
+  .container
+    .row
+      .span12
+        h1 
+          ' To all our sponsors:
+          em Thanks!
+        p We couldn't do it without you.
+      .span12
+        ul.thumbnails
+          li.span6
+            a href="http://www.vicfirth.com/" target="_blank"
+              == image_tag 'sponsors/vic-firth.png', class: 'thumbnail'
+          li.span6
+            a href="http://usa.yamaha.com/products/musical-instruments/winds/trumpets/" target="_blank"
+              == image_tag 'sponsors/yamaha.png', class: 'thumbnail'
+          li.span4
+            a href="http://www.pearldrum.com/" target="_blank"
+              == image_tag 'sponsors/pearl.png', class: 'thumbnail'
+          li.span4
+            a href="http://www.adams-music.com/" target="_blank"
+              == image_tag 'sponsors/adams-musical-instruments.png', class: 'thumbnail'
+          li.span4
+            a href="http://zildjian.com/" target="_blank"
+              == image_tag 'sponsors/zildjian.png', class: 'thumbnail'
+          li.span4
+            a href="http://www.dartmouth.edu/" target="_blank"
+              == image_tag 'sponsors/dartmouth-college.svg', class: 'thumbnail'
+      / == image_tag 'sponsors/percussion-source.png', class: 'span2'
+      / == image_tag 'sponsors/shaker-museum.gif', class: 'span2'
+      / == image_tag 'sponsors/calarts.png', class: 'span4'
+
 footer class="footer"
   div class="container"
-    p class="pull-right"
-      a href="#" Back to top
+    / p class="pull-right"
+    /   a href="#" Back to top
     p 
-      | Designed and built with all the love in the world for&nbsp;
-      a href="/" target="_blank" The Center for Advanced Musical Studies
-      | &nbsp;by&nbsp;
-      a href="http://twitter.com/wenzowski" target="_blank" @wenzowski
-      | &nbsp;and&nbsp;
-      a href="http://twitter.com/sarahbellereid" target="_blank" @sarahbellereid
+      ' Designed and built with all the love in the world for
+      a href="/"
+        ' The Center for Advanced Musical Studies at Chosen Vale
+      ' by
+      a href="http://twitter.com/sarahbellereid" target="_blank"
+        ' @sarahbellereid
+      ' and
+      a href="http://twitter.com/wenzowski" target="_blank"
+        ' @wenzowski
       | .
     p 
-      | Code licensed under&nbsp; 
+      ' Code licensed under
       a href="http://creativecommons.org/licenses/by/3.0/" CC BY 3.0
       | .

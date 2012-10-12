@@ -1,5 +1,9 @@
-.footer {
+section#sponsors {
   margin-top: 1em;
+  // images intended for #151414
+  background-color: $black;
+}
+.footer {
   padding: 1em;
   color: $navbarInverseText;
   @include gradient-vertical($navbarInverseBackgroundHighlight, $navbarInverseBackground);
