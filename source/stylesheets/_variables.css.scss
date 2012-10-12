@@ -34,12 +34,16 @@ $linkColorHover:        darken($linkColor, 15%) !default;
 
 // Typography
 // -------------------------
-$sansFontFamily:        Dosis, sans-serif !default;
+$serifFontFamily:       thryomanesnormal, Georgia, "Times New Roman", Times, serif;
+$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
+$baseFontFamily:        $serifFontFamily;
 $baseFontSize:          15px;
 $baseLineHeight:        21px;
 // for compass
 $base-font-size:        $baseFontSize;
 $base-line-height:      $baseLineHeight;
+$altFontFamily:         $sansFontFamily;
 
 
 // Navbar
