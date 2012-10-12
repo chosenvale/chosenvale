@@ -1,0 +1,125 @@
+---
+title: Contact - Chosen Vale (Center for Advanced Musical Studies)
+---
+
+section id="contact-us"
+  div id="contact" class="row well"
+    form class="form-horizontal" action="http://entio-postage.herokuapp.com/messages/send.json" method="post"
+      input type="hidden" name="message[to][0][name]" value="Edward Carroll"
+      input type="hidden" name="message[to][0][email]" value="edward.carroll@dartmouth.edu"
+      .control-group
+        label class="control-label" for="name" Name
+        .controls
+          input id="name" type="text" name="message[from_name]" placeholder="Frank Sinatra"
+      .control-group
+        label class="control-label" for="email" Email
+        .controls
+          input id="email" type="text" name="message[from_email]" placeholder="frank@example.com"
+      .control-group
+        label class="control-label" for="subject" Subject
+        .controls
+          input id="subject" class="span9" type="text" name="message[subject]" placeholder="Question?"
+      .control-group
+        label class="control-label" for="message" Message
+        .controls
+          textarea id="message" class="span9" name="message[text]" rows="5" placeholder="Ask us something!"
+      .control-group
+        .controls
+          input class="btn" type="submit" value="Send!"
+  div id="sending" class="row well hidden"
+    div class="span2" 
+      strong Sending message
+    div class="span9"
+      div class="progress progress-striped active"
+        div class="bar" style="width: 100%;"
+    div class="span12"
+      button class="btn show-contact-form" Cancel
+  div id="sent" class="row well hidden"
+    div class="span2" 
+      strong Message sent!
+    div class="span9"
+      div class="progress progress-success"
+        div class="bar" style="width: 100%;"
+    div class="span12"
+      button class="btn show-contact-form" Ok
+  div id="failure" class="row well hidden"
+    div class="span2"
+      strong Whoops! 
+    div class="span9"
+      div class="progress progress-danger"
+        div class="bar" style="width: 100%;"
+    div class="span12"
+      p Looks like there was a problem.
+      p Why don't you try calling? +1 (603) 667-5829
+      button class="btn show-contact-form" Go Back
+
+
+  javascript:
+    (function($) {
+      $.fn.serializeFormJSON = function() {
+        var o = {};
+        var a = this.serializeArray();
+        $.each(a, function() {
+          if (o[this.name] !== undefined) {
+            if (!o[this.name].push) {
+              o[this.name] = [o[this.name]];
+            }
+            o[this.name].push(this.value || '');
+          } else {
+            o[this.name] = this.value || '';
+          }
+        });
+        return o;
+      };
+    })(jQuery);
+    function showSendingMessage() {
+      $('#contact').addClass('hidden');
+      $('#sending').removeClass('hidden');
+      $('#sent').addClass('hidden');
+      $('#failure').addClass('hidden');
+    }
+    function showSentMessage() {
+      $('#contact').addClass('hidden');
+      $('#sending').addClass('hidden');
+      $('#sent').removeClass('hidden');
+      $('#failure').addClass('hidden');
+    }
+    function showFailureMessage() {
+      $('#contact').addClass('hidden');
+      $('#sending').addClass('hidden');
+      $('#sent').addClass('hidden');
+      $('#failure').removeClass('hidden');
+    }
+    function showContactForm() {
+      $('#contact').removeClass('hidden');
+      $('#sending').addClass('hidden');
+      $('#sent').addClass('hidden');
+      $('#failure').addClass('hidden');
+    }
+    $('button.show-contact-form').bind('click', function(event) {
+      showContactForm();
+    });
+    $('#contact form').submit(function(e) {
+      var $form = $(this);
+      var data = $form.serializeFormJSON();
+      var url = 'http://entio-postage.herokuapp.com/messages/send.json?callback=?';
+      showSendingMessage();
+      $.ajax({
+        type: 'POST',
+        url: url,
+        async: false,
+        jsonpCallback: 'jsonCallback',
+        contentType: "application/json",
+        dataType: 'jsonp',
+        data: data,
+        success: function(json) {
+          console.log(json);
+          showSentMessage();
+        },
+        error: function(e) {
+          console.log(e.message);
+          showFailureMessage();
+        }
+      });
+      e.preventDefault();
+    });
