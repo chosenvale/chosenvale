@@ -5,6 +5,19 @@
 
 body {
   padding-top: 60px; // Adjust for global static menu
+  @media (max-width: 767px) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    .container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  @media (max-width: 979px) {
+    .navbar-fixed-top {
+      margin-bottom: 0;
+    }
+  }
 }
 
 @import 'bootstrap-responsive';
