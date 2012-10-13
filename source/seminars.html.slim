@@ -1,128 +1,129 @@
-header class="jumbotron subhead" id="overview"
-  h1 Seminars
+div class="container"
+  header class="jumbotron subhead" id="overview"
+    h1 Seminars
 
-  p class="lead"
-    | Inspiring and challenging opportunities for musical and artistic growth. 
+    p class="lead"
+      | Inspiring and challenging opportunities for musical and artistic growth. 
 
-  .subnav.hidden-phone
-    ul class="nav nav-pills"
-      == partial "partials/seminars/subnav"
-  .mobile-subnav.visible-phone
-    ul class="nav nav-list"
-      == partial "partials/seminars/subnav"
-
-
-
-section id="schedule" class="row"
-  div class="span6"
-    h1 class="center" Trumpet Seminar
-    h3 class="center" from June 17th to 29th, 2013
-    ul class="thumbnails"
-      li class="span6"
-        div class="thumbnail"
-          == image_tag "support/trumpet-seminar.jpg"
-
-  div class="span6"
-    h1 class="center" Percussion Seminar
-    h3 class="center" from July 1st to 13th, 2013
-    ul class="thumbnails"
-      li class="span6"
-        div class="thumbnail"
-          == image_tag "support/percussion-seminar.jpg"
+    .subnav.hidden-phone
+      ul class="nav nav-pills"
+        == partial "partials/seminars/subnav"
+    .mobile-subnav.visible-phone
+      ul class="nav nav-list"
+        == partial "partials/seminars/subnav"
 
 
 
-section id="faculty"
-  .row
-    .span12
-      h1 Faculty
-  .row
-    .span6
-      .row
-        .span6
-          h3 Trumpet Faculty
-      .row
-        .span3
-          == partial "partials/seminars/faculty_member", locals: {name: "Stephen Burns"}
-          == partial "partials/seminars/faculty_member", locals: {name: "Edward Carroll"}
-          == partial "partials/seminars/faculty_member", locals: {name: "Gabriele Cassone"}
-        .span3
-          == partial "partials/seminars/faculty_member", locals: {name: "Mark Gould"}
-          == partial "partials/seminars/faculty_member", locals: {name: "Brian McWhorter"}
-          == partial "partials/seminars/faculty_member", locals: {name: "Thomas Stevens"}
-          == partial "partials/seminars/faculty_member", locals: {name: "John Wallace"}
-    .span6
-      .row
-        .span6
-          h3 Percussion Faculty
-      .row
-        .span3
-          == partial "partials/seminars/faculty_member", locals: {name: "Michael Burritt"}
-          == partial "partials/seminars/faculty_member", locals: {name: "Matthew Duvall"}
-          == partial "partials/seminars/faculty_member", locals: {name: "Tim Feeney"}
-        .span3
-          == partial "partials/seminars/faculty_member", locals: {name: "Eduardo Leandro"}
-          == partial "partials/seminars/faculty_member", locals: {name: "Doug Perkins"}
-          == partial "partials/seminars/faculty_member", locals: {name: "Cynthia Yeh"}
-
-section id="guests"
-  h1 Guest Artists & Collaborators
-  .row
-    .span6
-      h3 Trumpet
-      == partial "partials/seminars/guest_artist", locals: {name: "Rebecca Wilt", position: "Collaborative Pianist"}
-    .span6
-      h3 Percussion
-      == partial "partials/seminars/guest_artist", locals: {name: "Glenn Kotche", position: "Composer in Residence"}
-        
-
-
-section id="campus"
-  h1 Campus
-  br
-  ul class="thumbnails"
-    == partial 'partials/seminars/campus_building', locals: {name: "The Stone Mill", year: "1849", description: "Masterclasses, lectures, and communal discussion."}
-    == partial 'partials/seminars/campus_building', locals: {name: "Mary Keane Chapel", year: "1932", description: "A spectacular venue for public concerts."}
-  ul class="thumbnails"
-    == partial 'partials/seminars/campus_building', locals: {name: "West Brethren's Shop", year: "1820", description: "Lessons, workshops, and practice rooms."}
-    == partial 'partials/seminars/campus_building', locals: {name: "Laundry and Dairy Building", year: "1813", description: "Practice rooms."}
-
-
-
-section id="accommodation"
-  h1 Accommodation
-
-  div class="row"
+  section id="schedule" class="row"
     div class="span6"
-      h4 Amenities
-      ul
-        li wifi and 3G converage 
-        li private bathroom with shower 
-        li linens: bedding, pillows, towels
-      h4 Meals
-      ul
-        li 3 meals provided per day
+      h1 class="center" Trumpet Seminar
+      h3 class="center" from June 17th to 29th, 2013
       ul class="thumbnails"
-        li class="span3"
+        li class="span6"
           div class="thumbnail"
-            == image_tag "campus/gsd-inside-2.jpg"
-        li class="span3"
-          div class="thumbnail"
-            == image_tag "campus/gsd-inside-1.jpg"
+            == image_tag "support/trumpet-seminar.jpg"
+
     div class="span6"
+      h1 class="center" Percussion Seminar
+      h3 class="center" from July 1st to 13th, 2013
       ul class="thumbnails"
-        == partial 'partials/seminars/campus_building', locals: {name: "Great Stone Dwelling", year: "1841", description: "Participants and faculty live and dine together in this historic building."}
+        li class="span6"
+          div class="thumbnail"
+            == image_tag "support/percussion-seminar.jpg"
 
 
-section id="dress"
-  h1 Dress
-  p
-    | Dresscode is casual at all seminar events except when performing in concerts and masterclasses. Performance attire left to the discretion of each individual performer. 
-  p
-    | Temperatures range from 50-90F. 
+
+  section id="faculty"
+    .row
+      .span12
+        h1 Faculty
+    .row
+      .span6
+        .row
+          .span6
+            h3 Trumpet Faculty
+        .row
+          .span3
+            == partial "partials/seminars/faculty_member", locals: {name: "Stephen Burns"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Edward Carroll"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Gabriele Cassone"}
+          .span3
+            == partial "partials/seminars/faculty_member", locals: {name: "Mark Gould"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Brian McWhorter"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Thomas Stevens"}
+            == partial "partials/seminars/faculty_member", locals: {name: "John Wallace"}
+      .span6
+        .row
+          .span6
+            h3 Percussion Faculty
+        .row
+          .span3
+            == partial "partials/seminars/faculty_member", locals: {name: "Michael Burritt"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Matthew Duvall"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Tim Feeney"}
+          .span3
+            == partial "partials/seminars/faculty_member", locals: {name: "Eduardo Leandro"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Doug Perkins"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Cynthia Yeh"}
+
+  section id="guests"
+    h1 Guest Artists & Collaborators
+    .row
+      .span6
+        h3 Trumpet
+        == partial "partials/seminars/guest_artist", locals: {name: "Rebecca Wilt", position: "Collaborative Pianist"}
+      .span6
+        h3 Percussion
+        == partial "partials/seminars/guest_artist", locals: {name: "Glenn Kotche", position: "Composer in Residence"}
+          
 
 
-section id="apply"
-  h1 Apply Now
-  h3 Use the online application form
-  a href="/application.html" class="btn btn-primary" Apply online &raquo;
+  section id="campus"
+    h1 Campus
+    br
+    ul class="thumbnails"
+      == partial 'partials/seminars/campus_building', locals: {name: "The Stone Mill", year: "1849", description: "Masterclasses, lectures, and communal discussion."}
+      == partial 'partials/seminars/campus_building', locals: {name: "Mary Keane Chapel", year: "1932", description: "A spectacular venue for public concerts."}
+    ul class="thumbnails"
+      == partial 'partials/seminars/campus_building', locals: {name: "West Brethren's Shop", year: "1820", description: "Lessons, workshops, and practice rooms."}
+      == partial 'partials/seminars/campus_building', locals: {name: "Laundry and Dairy Building", year: "1813", description: "Practice rooms."}
+
+
+
+  section id="accommodation"
+    h1 Accommodation
+
+    div class="row"
+      div class="span6"
+        h4 Amenities
+        ul
+          li wifi and 3G converage 
+          li private bathroom with shower 
+          li linens: bedding, pillows, towels
+        h4 Meals
+        ul
+          li 3 meals provided per day
+        ul class="thumbnails"
+          li class="span3"
+            div class="thumbnail"
+              == image_tag "campus/gsd-inside-2.jpg"
+          li class="span3"
+            div class="thumbnail"
+              == image_tag "campus/gsd-inside-1.jpg"
+      div class="span6"
+        ul class="thumbnails"
+          == partial 'partials/seminars/campus_building', locals: {name: "Great Stone Dwelling", year: "1841", description: "Participants and faculty live and dine together in this historic building."}
+
+
+  section id="dress"
+    h1 Dress
+    p
+      | Dresscode is casual at all seminar events except when performing in concerts and masterclasses. Performance attire left to the discretion of each individual performer. 
+    p
+      | Temperatures range from 50-90F. 
+
+
+  section id="apply"
+    h1 Apply Now
+    h3 Use the online application form
+    a href="/application.html" class="btn btn-primary" Apply online &raquo;

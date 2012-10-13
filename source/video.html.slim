@@ -1,58 +1,59 @@
-header class="jumbotron subhead" id="overview"
-  h1 Video
+div class="container"
+  header class="jumbotron subhead" id="overview"
+    h1 Video
 
-  p class="lead"
-    | Peformances tagline.
+    p class="lead"
+      | Peformances tagline.
 
-section id="video"
-  .row
-    .span6
-      div id="embed"
-      div id="details"
-        h4 class="title"
-        p class="description"
-    .span6
-      div id="thumbs"
-        ul
+  section id="video"
+    .row
+      .span6
+        div id="embed"
+        div id="details"
+          h4 class="title"
+          p class="description"
+      .span6
+        div id="thumbs"
+          ul
 
-  javascript:
-    var apiEndpoint = 'http://vimeo.com/api/v2/';
-    var oEmbedEndpoint = 'http://vimeo.com/api/oembed.json'
-    var oEmbedCallback = 'switchVideo';
-    var videosCallback = 'setupGallery';
-    var vimeoUsername = 'user13986449';
+    javascript:
+      var apiEndpoint = 'http://vimeo.com/api/v2/';
+      var oEmbedEndpoint = 'http://vimeo.com/api/oembed.json'
+      var oEmbedCallback = 'switchVideo';
+      var videosCallback = 'setupGallery';
+      var vimeoUsername = 'user13986449';
 
-    // Get the user's videos
-    $(document).ready(function() {
-      $.getScript(apiEndpoint + vimeoUsername + '/videos.json?callback=' + videosCallback);
-    });
-
-    function getVideo(url) {
-      $.getScript(oEmbedEndpoint + '?url=' + url + '&byline=false&width=504&height=280&callback=' + oEmbedCallback);
-    }
-
-    function setupGallery(videos) {
-      // Load the first video
-      getVideo(videos[0].url);
-
-      // Add the videos to the gallery
-      for (var i = 0; i < videos.length; i++) {
-        var html = '<li><a href="' + videos[i].url + '"><img src="' + videos[i].thumbnail_medium + '" class="thumb" />';
-        html += '<p>' + videos[i].title + '</p></a></li>';
-        $('#thumbs ul').append(html);
-      }
-
-      // Switch to the video when a thumbnail is clicked
-      $('#thumbs a').click(function(event) {
-        event.preventDefault();
-        getVideo(this.href);
-        return false;
+      // Get the user's videos
+      $(document).ready(function() {
+        $.getScript(apiEndpoint + vimeoUsername + '/videos.json?callback=' + videosCallback);
       });
 
-    }
+      function getVideo(url) {
+        $.getScript(oEmbedEndpoint + '?url=' + url + '&byline=false&width=504&height=280&callback=' + oEmbedCallback);
+      }
 
-    function switchVideo(video) {
-      $('#embed').html(unescape(video.html));
-      $('#details .title').html(unescape(video.title))
-      $('#details .description').html(unescape(video.description))
-    }
+      function setupGallery(videos) {
+        // Load the first video
+        getVideo(videos[0].url);
+
+        // Add the videos to the gallery
+        for (var i = 0; i < videos.length; i++) {
+          var html = '<li><a href="' + videos[i].url + '"><img src="' + videos[i].thumbnail_medium + '" class="thumb" />';
+          html += '<p>' + videos[i].title + '</p></a></li>';
+          $('#thumbs ul').append(html);
+        }
+
+        // Switch to the video when a thumbnail is clicked
+        $('#thumbs a').click(function(event) {
+          event.preventDefault();
+          getVideo(this.href);
+          return false;
+        });
+
+      }
+
+      function switchVideo(video) {
+        $('#embed').html(unescape(video.html));
+        $('#details .title').html(unescape(video.title))
+        $('#details .description').html(unescape(video.description))
+      }
