@@ -1,7 +1,29 @@
+@mixin logo-size($font-size) {
+  $margin-size: ($font-size / 2.9);
+  $line-height: if($font-size < 2em, $font-size, $margin-size);
+  
+  font-size: $font-size;
+  margin: $margin-size 0 $margin-size 0;
+  line-height: $line-height;
+}
+
 div.logo {
-  margin: 1.2em 0 1.2em 0;
-  font-size: 3.5em;
-  line-height: 1.2em;
+  @include logo-size(3.5em);
+  @media (min-width: 1200px) {
+    @include logo-size(4.4em);
+  }
+  @media (min-width: 980px) and (max-width: 1199px) {
+    @include logo-size(3.5em);
+  }
+  @media (min-width: 768px) and (max-width: 979px) {
+    @include logo-size(2.69em);
+  }
+  @media (min-width: 480px) and (max-width: 767px) {
+    @include logo-size(1.63em);
+  }
+  @media (max-width: 479px) {
+    @include logo-size(1em);
+  }
   div.bars {
     font-style: bold;
     font-variant: small-caps;
