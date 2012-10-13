@@ -1,0 +1,25 @@
+div.logo {
+  margin: 1.2em 0 1.2em 0;
+  font-size: 3.5em;
+  line-height: 1.2em;
+  div.bars {
+    font-style: bold;
+    font-variant: small-caps;
+    text-align: center;
+    $red-line: 1px solid $cv-red;
+    border-top: $red-line;
+    border-bottom: $red-line;
+    span.hl {
+      color: $cv-red;
+      font-style: italic;
+      font-variant: normal;
+      font-size: smaller;
+    }
+  }
+  div.loc {
+    text-align: right;
+    font-style: italic;
+    font-variant: normal;
+    font-size: smaller;
+  }
+}
