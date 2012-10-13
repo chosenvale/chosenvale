@@ -1,7 +1,18 @@
 @import 'logo/_size';
+
+// Style logo block
+// -------------------------
+section#main-logo {
+  background: $grayDarker;
+  margin-bottom: 1em;
+  div.cv-logo {
+    color: $white;
+  }
 }
 
-div.logo {
+// Style Chosen Vale Logo
+// -------------------------
+div.cv-logo {
   @include logo-size(3.5em);
   @media (min-width: 1200px) {
     @include logo-size(4.4em);
