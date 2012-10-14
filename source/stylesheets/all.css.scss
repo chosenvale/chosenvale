@@ -41,52 +41,6 @@ section#faculty, section#guests, section#campus, section#accommodation {
   }
 }
 
-// Video page
+// Page-specific styling
 // -------------------------
-section#video {
-  #thumbs { 
-    & { 
-      // overflow: auto; 
-      // height: 298px; 
-      // width: 300px; 
-      // padding: 0; 
-      // float: left; 
-      border: 1px solid $grayLighter; 
-    }
-    ul { 
-      & {
-        list-style-type: none; 
-        margin: 0 10px 0; 
-        padding: 0 0 10px 0; 
-      }
-      li {
-        height: 75px;
-        margin-top: 10px;
-      }
-    }
-  }
-  .thumb { 
-    border: 0; 
-    float: left; 
-    width: 100px; 
-    height: 75px; 
-    background: url(http://a.vimeocdn.com/thumbnails/defaults/default.75x100.jpg); 
-    margin-right: 10px; 
-  }
-  #embed { 
-    background-color: $grayLighter; 
-    height: 280px; 
-    width: 504px; 
-    float: left; 
-    padding: 10px; 
-  }
-  #portrait { 
-    float: left; 
-    margin-right: 5px; 
-    max-width: 100px; 
-  }
-  #stats { 
-    clear: both; 
-    margin-bottom: 20px; 
-  }  
-}
+@import 'pages/performances';

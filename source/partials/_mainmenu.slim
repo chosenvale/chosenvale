@@ -7,7 +7,7 @@ div class="navbar navbar-inverse navbar-fixed-top"
         span.icon-bar
       div class="nav-collapse collapse"
         ul class="nav"
-          - links = {'Home' => '/', 'Seminars' => '/seminars.html', 'Admission' => '/admission.html', 'Application' => '/application.html'}
+          - links = {'Home' => '/', 'Performances' => '/performances.html', 'Seminars' => '/seminars.html', 'Admission' => '/admission.html', 'Application' => '/application.html'}
           - for title, path in links do
             - if "/#{current_page.path}" == path || (path == '/' && current_page.path == 'index.html')
               li class="active"== link_to title, path
