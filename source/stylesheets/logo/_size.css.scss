@@ -2,7 +2,7 @@
 // -------------------------
 @mixin logo-size($font-size) {
   $margin-size: ($font-size / 4);
-  $line-height: if($font-size < 2em, $font-size, $margin-size);
+  $line-height: if($font-size < 2em, $font-size, 1.2em);
   
   font-size: $font-size;
   margin: $margin-size 0 $margin-size 0;
