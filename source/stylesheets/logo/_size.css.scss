@@ -5,6 +5,6 @@
   $line-height: if($font-size < 2em, $font-size, 1.2em);
   
   font-size: $font-size;
-  margin: $margin-size 0 $margin-size 0;
+  margin: $margin-size 0 ($margin-size/2) 0;
   line-height: $line-height;
 }
