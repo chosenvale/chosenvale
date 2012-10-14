@@ -12,6 +12,35 @@ div class="container"
       ul class="nav nav-list"
         == partial "partials/admission/subnav"
 
+  section id="participants"
+    h1 Global Participation
+    div class="row"
+      div class="span12"
+        ul class="thumbnails"
+          li class="span5"
+            div class="content"
+              h4 For 8 years participants have joined us from:
+              p Australia, Austria, Belgium, Brazil, Canada, China, Colombia, Croatia, England, Finland, France, Germany, Holland, Italy, Japan, South Korea, Malaysia, Peru, Spain, Thailand, Turkey, the United States, and Uruguay.
+          li class="span5"
+            div class="thumbnail"
+              == image_tag "support/global-1.jpg"
+          li class="span2"
+            div class="thumbnail"
+              == image_tag "support/global-7.jpg"
+          li class="span2"
+            div class="thumbnail"
+              == image_tag "support/global-2.jpg"
+          li class="span4"
+            div class="thumbnail"
+              == image_tag "support/global-3.jpg"
+          li class="span4"
+            div class="thumbnail"
+              == image_tag "support/global-4.jpg"
+          li class="span4"
+            div class="thumbnail"
+              == image_tag "support/global-5.jpg"
+          
+
   section id="fees"
     h1 Fees
     table class="table table-bordered table-striped fee-breakdown"
@@ -47,6 +76,43 @@ div class="container"
       | &nbsp;for our seminars. The first 40 accepted applicants will be enrolled.
       | Others will be added to the waitlist.
 
+
+  section id="references"
+    h1 References & Letters of Recommendation
+    div class="row"
+      div class="span6"
+        p 
+          br
+          | All applicants must provide two letters of recommendation from a&nbsp;
+          a href="#" rel="tooltip" data-placement="right" data-original-title="Internationally or nationally known musician or teacher." qualified
+          | &nbsp;individual to be considered.
+        h4 Send references to:
+        div class="vcard"
+          div class="fn org url"
+            | The Center for Advanced Musical Studies
+          div class="adr"
+            div class="street-address" P.O. Box 108
+            span class="locality" Hanover
+            | ,&nbsp;
+            abbr class="region" title="New Hampshire" NH
+            | &nbsp;&nbsp;
+            span class="postal-code" 03755
+            div class="country-name" United States of America
+          div
+            | Email: 
+            a class="email" href="mailto:admissions@chosenvalemusic.org"
+              | admissions@chosenvalemusic.org
+      div class="span6"
+        p
+          br
+          | Those applying for financial aid or scholarship consideration must also include any additional required material with their application. 
+        div class="row"
+          div class="alert alert-block span5"
+            a class="close" data-dismiss="alert" href="#" ×
+            h4 Attention!
+            p Please read all application information carefully to ensure your application form is complete.
+
+
   section id="financialaid"
     h1 Scholarships &amp; Financial Aid
     div class="row"
@@ -77,33 +143,6 @@ div class="container"
             | .
 
 
-  section id="references"
-    h1 References & Letters of Recommendation
-    div class="row"
-      div class="span6"
-        p 
-          br
-          | All applicants must provide two letters of recommendation from a&nbsp;
-          a href="#" rel="tooltip" data-placement="right" data-original-title="Internationally or nationally known musician or teacher." qualified
-          | &nbsp;individual to be considered.
-      div class="span6"
-        h4 Send references to:
-        div class="vcard"
-          div class="fn org url"
-            | The Center for Advanced Musical Studies
-          div class="adr"
-            div class="street-address" P.O. Box 108
-            span class="locality" Hanover
-            | ,&nbsp;
-            abbr class="region" title="New Hampshire" NH
-            | &nbsp;&nbsp;
-            span class="postal-code" 03755
-            div class="country-name" United States of America
-          div
-            | Email: 
-            a class="email" href="mailto:admissions@chosenvalemusic.org"
-              | admissions@chosenvalemusic.org
-
 
   section id="acceptance"
     h1 Notification of Acceptance
@@ -112,7 +151,7 @@ div class="container"
       a href="#" rel="tooltip" data-placement="bottom" data-original-title="by e-mail/phone" be notified
       | &nbsp;of their status within 10 days of receipt of their application.
     div class="row"
-      div class="alert alert-info span8"
+      div class="alert alert-block span8"
         a class="close" data-dismiss="alert" href="#" ×
         strong Accepted
         | &nbsp;applicants must submit a&nbsp;
