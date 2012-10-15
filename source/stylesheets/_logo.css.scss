@@ -7,7 +7,7 @@ section#main-logo {
   @include background(
     linear-gradient(top, rgba($black, 0), rgba($black, 0.6)),
     radial-gradient(rgba($grayDarker, 0.8), rgba($black, 0.8) 800px),
-    image-url('/images/support/honeycomb.png')
+    image-url('/images/texture/honeycomb.png')
   );
   margin-bottom: 1em;
   div.cv-logo {

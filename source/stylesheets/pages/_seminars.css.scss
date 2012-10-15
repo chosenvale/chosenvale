@@ -1,0 +1,14 @@
+// Seminars page
+// -------------------------
+section#faculty, section#guests {
+  h1 {text-align: center}
+}
+section#faculty, section#guests, section#campus, section#accommodation {
+  h3 {text-align: center}
+  .modal-body img {float: right}
+  a.thumbnail {
+    h4 {margin: 0}
+    button {float: right; position: relative; top: 6px}
+    &:hover, &:active {text-decoration: none}
+  }
+}
