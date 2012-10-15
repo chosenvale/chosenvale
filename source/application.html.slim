@@ -22,6 +22,7 @@ div class="container"
             input name="message[to][0][name]" type="hidden" value="Edward Carroll"
             input name="message[to][0][email]" type="hidden" value="edward.carroll@dartmouth.edu"
             == partial "partials/application/common_fields"
+            == partial "partials/application/field", locals: {id: "assistance", type: "checkbox", label: "I would like to be considered for <a href='/admission.html#financialaid'>tuition assistance</a>; I won't be able to attend the seminar without it."}
             == partial "partials/application/payment_fields"
             == partial "partials/application/field", locals: {id: "submit", type: "submit", classes: "btn btn-primary"}
 
