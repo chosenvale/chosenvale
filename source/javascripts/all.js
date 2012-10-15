@@ -9,9 +9,6 @@
     // Activate all tooltip links
     $('a[rel="tooltip"]').tooltip();
 
-    // Activate all buttons
-    $('div.btn-group').button();
-
     // Trigger subnav affix with custom offset:
     //  - Main menu sticky on desktop but not on tablet
     var $subnav = $('.subnav')
@@ -35,7 +32,11 @@
     }
 
 
-    $('#active-application').find('.btn').bind('click', function(event) {
+    // Activate all buttons
+    $('div.btn-group').button();
+
+    // Toggle Trumpet/Percussion forms.
+    $('div.btn-group#active-application').find('.btn').bind('click', function(event) {
       if ( $(this).attr('id') === 'trumpet' ) {
         $('section#trumpet-application').removeClass('hidden');
         $('section#percussion-application').addClass('hidden');         
@@ -45,6 +46,16 @@
       }
     })
 
+    // Toggle Colin Currie Scholarship extra fields.
+    $('div.btn-group#scholarship').find('.btn').bind('click', function(event) {
+      if ( $(this).attr('id') === 'yes' ) {
+        $('div#scholarship-extra').removeClass('hidden');
+        event.preventDefault();
+      } else if ( $(this).attr('id') === 'no' ) {
+        $('div#scholarship-extra').addClass('hidden');
+        event.preventDefault();
+      }
+    })
 
   })
 
