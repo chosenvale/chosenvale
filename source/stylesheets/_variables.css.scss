@@ -7,12 +7,12 @@ $moon-at-full:          #FEF9F0;
 // Grays
 // -------------------------
 $black:                 #000 !default;
-$grayDarker:            #222 !default;
-$grayDark:              #333 !default;
-$gray:                  #555 !default;
-$grayLight:             #999 !default;
-$grayLighter:           #eee !default;
-$white:                 #fff !default;
+$grayDarker:            desaturate(darken($moon-at-full, 87.5%), 50%); //#222 !default;
+$grayDark:              desaturate(darken($moon-at-full, 81.25%), 70%); //#333 !default;
+$gray:                  desaturate(darken($moon-at-full, 68.75%), 70%); //#555 !default;
+$grayLight:             desaturate(darken($moon-at-full, 43.75%), 70%); //#999 !default;
+$grayLighter:           darken($moon-at-full, 6.25%); //#eee !default;
+$white:                 lighten($moon-at-full, 2%); //#fff !default;
 
 
 // Accent colors
