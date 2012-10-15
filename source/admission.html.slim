@@ -12,8 +12,8 @@ header class="hero-unit"
       ul class="nav nav-list"
         == partial "partials/admission/subnav"
 
-div class="container"
-  section id="participants"
+section id="participants"
+  div class="container"
     h1 Global Participation
     div class="row"
       div class="span12"
@@ -42,13 +42,14 @@ div class="container"
               == image_tag "support/global-5.jpg"
           
 
-  section id="fees"
+section id="fees"
+  div class="container"
     h1 Fees
     table class="table table-bordered table-striped fee-breakdown"
       thead
         tr
           th colspan="3" 
-            | Seminar Costs&nbsp; 
+            ' Seminar Costs
             span class="badge badge-inverse"
               | $2050 USD
       tbody
@@ -69,24 +70,27 @@ div class="container"
           th colspan="3" 
     p Applicants are responsible for all travel, medical, and insurance expenses. 
 
-  section id="deadlines"
+section id="deadlines"
+  div class="container"
     h1 Deadlines
     h3
-      | There are&nbsp;
-      a href="#" rel="tooltip" data-placement="top" data-original-title="Applications and letters of recommendation will be accepted until each seminar is fully enrolled." no application deadlines
-      | &nbsp;for our seminars. The first 40 accepted applicants will be enrolled.
-      | Others will be added to the waitlist.
+      ' There are
+      a href="#" rel="tooltip" data-placement="top" data-original-title="Applications and letters of recommendation will be accepted until each seminar is fully enrolled." 
+        ' no application deadlines
+      | for our seminars. The first 40 accepted applicants will be enrolled. Others will be added to the waitlist.
 
 
-  section id="references"
+section id="references"
+  div class="container"
     h1 References & Letters of Recommendation
     div class="row"
       div class="span6"
         p 
           br
-          | All applicants must provide two letters of recommendation from a&nbsp;
-          a href="#" rel="tooltip" data-placement="right" data-original-title="Internationally or nationally known musician or teacher." qualified
-          | &nbsp;individual to be considered.
+          ' All applicants must provide two letters of recommendation from a
+          a href="#" rel="tooltip" data-placement="right" data-original-title="Internationally or nationally known musician or teacher."
+            ' qualified
+          | individual to be considered.
         h4 Send references to:
         div class="vcard"
           div class="fn org url"
@@ -94,9 +98,9 @@ div class="container"
           div class="adr"
             div class="street-address" P.O. Box 108
             span class="locality" Hanover
-            | ,&nbsp;
+            ' ,
             abbr class="region" title="New Hampshire" NH
-            | &nbsp;&nbsp;
+            '
             span class="postal-code" 03755
             div class="country-name" United States of America
           div
@@ -114,7 +118,8 @@ div class="container"
             p Please read all application information carefully to ensure your application form is complete.
 
 
-  section id="financialaid"
+section id="financialaid"
+  div class="container"
     h1 Scholarships &amp; Financial Aid
     div class="row"
       div class="span6"
@@ -133,31 +138,34 @@ div class="container"
         p Applicants who wish to apply for the Colin Currie percussion scholarship must include the following with their application:
         ul
           li
-            | a link to a video performance of&nbsp;
+            ' a link to a video performance of
             a href="#" rel="tooltip" data-placement="left" data-original-title="Mallet, multiple percussion, timpani, or other percussion instrument."
-              | two solos
-            | &nbsp;posted to Youtube or Vimeo
+              ' two solos
+            | posted to Youtube or Vimeo
           li
-            | a 500-word&nbsp;
+            ' a 500-word
             a href="#" rel="tooltip" data-placement="bottom" data-original-title="Plans and goals for development at Chosen Vale; how this seminar will impact your growth as a future leader."
               | statement of purpose
             | .
 
 
 
-  section id="acceptance"
+section id="acceptance"
+  div class="container"
     h1 Notification of Acceptance
     h3
-      | Applicants will&nbsp;
-      a href="#" rel="tooltip" data-placement="bottom" data-original-title="by e-mail/phone" be notified
-      | &nbsp;of their status within 10 days of receipt of their application.
+      ' Applicants will
+      a href="#" rel="tooltip" data-placement="bottom" data-original-title="by e-mail/phone"
+        ' be notified
+      | of their status within 10 days of receipt of their application.
     div class="row"
       div class="alert alert-block span8"
-        a class="close" data-dismiss="alert" href="#" ×
-        strong Accepted
-        | &nbsp;applicants must submit a&nbsp;
-        strong tuition deposit
-        | &nbsp;to claim their position. 
+        strong 
+          ' Accepted
+        ' applicants must submit a
+        strong 
+          'tuition deposit
+        | to claim their position. 
     p 
       | Forty participants will be enrolled in each seminar.
     p

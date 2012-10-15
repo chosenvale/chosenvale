@@ -14,27 +14,29 @@ header class="hero-unit"
 
 
 
-div class="container"
-  section id="schedule" class="row"
-    div class="span6"
-      h1 class="center" Trumpet Seminar
-      h3 class="center" from June 17th to 29th, 2013
-      ul class="thumbnails"
-        li class="span6"
-          div class="thumbnail"
-            == image_tag "support/trumpet-seminar.jpg"
+section id="schedule" 
+  div class="container"
+    div class="row"
+      div class="span6"
+        h1 class="center" Trumpet Seminar
+        h3 class="center" from June 17th to 29th, 2013
+        ul class="thumbnails"
+          li class="span6"
+            div class="thumbnail"
+              == image_tag "support/trumpet-seminar.jpg"
 
-    div class="span6"
-      h1 class="center" Percussion Seminar
-      h3 class="center" from July 1st to 13th, 2013
-      ul class="thumbnails"
-        li class="span6"
-          div class="thumbnail"
-            == image_tag "support/percussion-seminar.jpg"
+      div class="span6"
+        h1 class="center" Percussion Seminar
+        h3 class="center" from July 1st to 13th, 2013
+        ul class="thumbnails"
+          li class="span6"
+            div class="thumbnail"
+              == image_tag "support/percussion-seminar.jpg"
 
 
 
-  section id="faculty"
+section id="faculty"
+  div class="container"
     .row
       .span12
         h1 Faculty
@@ -68,7 +70,8 @@ div class="container"
             == partial "partials/seminars/faculty_member", locals: {name: "Doug Perkins"}
             == partial "partials/seminars/faculty_member", locals: {name: "Cynthia Yeh"}
 
-  section id="guests"
+section id="guests"
+  div class="container"
     h1 Guest Artists & Collaborators
     .row
       .span6
@@ -80,7 +83,8 @@ div class="container"
           
 
 
-  section id="campus"
+section id="campus"
+  div class="container"
     h1 Campus
     br
     ul class="thumbnails"
@@ -92,7 +96,8 @@ div class="container"
 
 
 
-  section id="accommodation"
+section id="accommodation"
+  div class="container"
     h1 Accommodation
 
     div class="row"
@@ -117,7 +122,8 @@ div class="container"
           == partial 'partials/seminars/campus_building', locals: {name: "Great Stone Dwelling", year: "1841", description: "Participants and faculty live and dine together in this historic building."}
 
 
-  section id="dress"
+section id="dress"
+  div class="container"
     h1 Dress
     p
       | Dresscode is casual at all seminar events except when performing in concerts and masterclasses. Performance attire left to the discretion of each individual performer. 
@@ -125,7 +131,8 @@ div class="container"
       | Temperatures range from 50-90F. 
 
 
-  section id="apply"
+section id="apply"
+  div class="container"
     h1 Apply Now
     h3 Use the online application form
     a href="/application.html" class="btn btn-primary" Apply online &raquo;

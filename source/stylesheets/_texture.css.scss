@@ -6,3 +6,15 @@ header.hero-unit {
     image-url('/images/texture/thin-lines.png')
   );
 }
+
+body, a.thumbnail {
+  background-color: $moon-at-full;
+}
+section {
+  @include background(
+    linear-gradient(top, rgba($moon-at-full, 1), rgba($moon-at-full, 0)),
+    image-url('/images/texture/teeny-tiny.png')
+  );
+  padding-top: rhythm(1);
+  padding-bottom: rhythm(2);
+}
