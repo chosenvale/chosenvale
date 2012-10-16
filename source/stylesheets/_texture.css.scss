@@ -2,8 +2,11 @@
 
 header.hero-unit {
   @include background(
-    linear-gradient(top, rgba($moon-at-full, 0.98), rgba($moon-at-full, 0.94)),
+    linear-gradient(top, rgba($grayLighter, 0.2), rgba($grayLighter, 0.8)),
+    radial-gradient(rgba($grayLighter, 0.5), rgba($grayLighter, 1)),
+    linear-gradient(top, rgba($white, 0.8), rgba($white, 0.6)),
     image-url('/images/texture/thin-lines.png')
+    // image-url('/images/texture/honeycomb.png')
   );
 }
 
