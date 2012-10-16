@@ -6,6 +6,17 @@
 
   $(function(){
 
+    // bugfix: IE doesn't preload display:none images
+    // see http://stackoverflow.com/questions/476679/preloading-images-with-jquery
+    function iePreload(arrayOfImageTags) {
+      $(arrayOfImageTags).each(function(){
+        src = $(this).attr('src')
+        $('<img/>')[0].src = src;
+      });
+    }
+    var $mainCarouselImages = $('div#main-carousel div.carousel-inner div.item img');
+    iePreload($mainCarouselImages);
+
     // Activate all tooltip links
     $('a[rel="tooltip"]').tooltip();
 
