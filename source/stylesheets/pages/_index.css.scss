@@ -1,3 +1,4 @@
+@import "compass/css3/pie";
 @import "compass/css3/images";
 
 div#main-carousel{
@@ -8,6 +9,7 @@ ul#main-carousel-control {
   list-style-type: none;
   margin-left: -20px;
   height: 344px;
+  @include pie;
   @include background(
     linear-gradient(left, $navbarInverseBackgroundHighlight, $navbarInverseBackground),
     $navbarInverseBackgroundHighlight
@@ -20,6 +22,7 @@ ul#main-carousel-control {
     color: $white;
     &:hover, &:active {
       text-decoration: none;
+      @include pie;
       @include background(
         linear-gradient(right, $navbarInverseBackgroundHighlight, $navbarInverseBackground),
         $navbarInverseBackgroundHighlight
