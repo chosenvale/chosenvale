@@ -1,9 +1,10 @@
+@import "compass/css3/pie";
 @import "compass/css3/images";
 
 header.hero-unit {
+  @include pie;
   @include background(
-    linear-gradient(top, rgba($grayLighter, 0.2), rgba($grayLighter, 0.8)),
-    radial-gradient(rgba($grayLighter, 0.5), rgba($grayLighter, 1)),
+    linear-gradient(top, rgba($grayLighter, 0.7), rgba($grayLighter, 1)),
     linear-gradient(top, rgba($white, 0.8), rgba($white, 0.6)),
     image-url('/images/texture/thin-lines.png')
     // image-url('/images/texture/honeycomb.png')
@@ -14,6 +15,7 @@ body, a.thumbnail {
   background-color: $moon-at-full;
 }
 section {
+  @include pie;
   @include background(
     linear-gradient(top, rgba($moon-at-full, 1), rgba($moon-at-full, 0)),
     image-url('/images/texture/teeny-tiny.png')

@@ -1,12 +1,13 @@
+@import "compass/css3/pie";
 @import "compass/css3/images";
 @import "logo/_size";
 
 // Style logo block
 // -------------------------
 section#main-logo {
+  @include pie;
   @include background(
-    linear-gradient(top, rgba($black, 0), rgba($black, 0.6)),
-    radial-gradient(rgba($grayDarker, 0.8), rgba($black, 0.8) 800px),
+    linear-gradient(top, rgba($black, 0.8), rgba($black, 0.95)),
     image-url('/images/texture/honeycomb.png')
   );
   margin-bottom: 1em;

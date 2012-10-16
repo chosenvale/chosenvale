@@ -3,6 +3,14 @@
 @import "_variables";
 @import "bootstrap"; // see https://github.com/thomas-mcdonald/bootstrap-sass
 
+@import "compass/css3/pie";
+@import "compass/css3";
+$pie-behavior: stylesheet-url("/stylesheets/PIE.htc");
+$pie-base-class: pie-element;
+.pie-element {
+  @include pie-element(relative);
+}
+
 body {
   padding-top: 60px; // Adjust for global static menu
   @media (max-width: 767px) {
