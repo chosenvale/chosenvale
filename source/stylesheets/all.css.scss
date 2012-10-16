@@ -1,15 +1,15 @@
-@import "compass";
-@import "_fonts";
-@import "_variables";
-@import "bootstrap"; // see https://github.com/thomas-mcdonald/bootstrap-sass
-
 @import "compass/css3/pie";
-@import "compass/css3";
-$pie-behavior: stylesheet-url("/stylesheets/PIE.htc");
+$pie-behavior: stylesheet-url("PIE.htc");
+$experimental-support-for-pie: true;
 $pie-base-class: pie-element;
 .pie-element {
   @include pie-element(relative);
 }
+
+@import "compass";
+@import "_fonts";
+@import "_variables";
+@import "bootstrap"; // see https://github.com/thomas-mcdonald/bootstrap-sass
 
 body {
   padding-top: 60px; // Adjust for global static menu
