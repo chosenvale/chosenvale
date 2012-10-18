@@ -23,8 +23,10 @@ function getVideo(url) {
 }
 
 function setupGallery(videos) {
-  // Load the first video
-  getVideo(videos[0].url);
+  // Find video: Sonata (Jan Krzywicki)
+  var krzywicki = $.grep(videos, function(e){ return e.id == 51099433; });
+  // Load krzywicki
+  getVideo(krzywicki[0].url);
 
   // Add the videos to the gallery
   for (var i = 0; i < videos.length; i++) {
