@@ -5,6 +5,7 @@
 // Style logo block
 // -------------------------
 section#main-logo {
+  background: $grayDarker;
   @include pie;
   @include background(
     linear-gradient(top, rgba($black, 0.8), rgba($black, 0.95)),
