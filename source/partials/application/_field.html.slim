@@ -1,3 +1,5 @@
+- unless defined?(name)
+  - name = ""
 - unless defined?(type)
   - type = "text"
 - unless defined?(classes)
@@ -12,16 +14,16 @@ fieldset
     div class="controls"
       - if (type == "textarea")
         - if defined?(placeholder)
-          textarea class="#{classes}" id="#{id}" placeholder="#{placeholder}" rows="#{rows}"
+          textarea name="#{name}" class="#{classes}" id="#{id}" placeholder="#{placeholder}" rows="#{rows}"
         - else
-          textarea class="#{classes}" id="#{id}" rows="#{rows}"
+          textarea name="#{name}" class="#{classes}" id="#{id}" rows="#{rows}"
       - elsif (type == "checkbox")
         label class="checkbox"
-          input type="checkbox"== label
+          input name="#{name}" type="checkbox"== label
       - else
         - if defined?(placeholder)
-          input type="#{type}" class="#{classes}" id="#{id}" placeholder="#{placeholder}"
+          input name="#{name}" type="#{type}" class="#{classes}" id="#{id}" placeholder="#{placeholder}"
         - else
-          input type="#{type}" class="#{classes}" id="#{id}"
+          input name="#{name}" type="#{type}" class="#{classes}" id="#{id}"
       - if defined?(description)
         p class="help-block"= description

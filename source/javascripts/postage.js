@@ -68,4 +68,9 @@ $(document).ready(function(){
     }
   }
 
+  // Always allow users to return to the "ready" state
+  $('button.show-contact-form').bind('click', function(event) {
+    $(this).postageState('ready');
+  });
+
 });

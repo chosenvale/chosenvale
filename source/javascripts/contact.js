@@ -41,9 +41,4 @@ $(document).ready(function(){
     $contact_form.sendWithPostage();
   });
   
-  // Always allow users to return to the "ready" state
-  $('button.show-contact-form').bind('click', function(event) {
-    $(this).postageState('ready');
-  });
-
 });
