@@ -16,6 +16,7 @@ section id="contact-us"
     div class="row"
       .span12
         h1 Send a message
+      .span9
         .postage.well
           .ready
             form class="form-horizontal" action="http://entio-postage.herokuapp.com/messages/send.json" method="post"
@@ -32,15 +33,30 @@ section id="contact-us"
               .control-group
                 label class="control-label" for="subject" Subject
                 .controls
-                  input id="subject" class="span9" type="text" name="message[subject]" placeholder="Question?"
+                  input id="subject" class="span5" type="text" name="message[subject]" placeholder="Question?"
               .control-group
                 label class="control-label" for="message" Message
                 .controls
-                  textarea id="message" class="span9" name="message[text]" rows="5" placeholder="Ask us something!"
+                  textarea id="message" class="span5" name="message[text]" rows="10" placeholder="Ask us something!"
               .control-group
                 .controls
                   input class="btn" type="submit" value="Send!"
           == partial "partials/postage/shared_states"
+      .span3
+        .well
+          p Mailing address:
+          div class="vcard"
+            div class="fn org"
+              strong The Center for Advanced Musical Studies
+            em Edward Carroll, director
+            div class="adr"
+              div class="street-address" P.O. Box 108
+              span class="locality" Hanover
+              ' ,
+              abbr class="region" title="New Hampshire" NH
+              '
+              span class="postal-code" 03755
+              div class="country-name" United States of America
 
 
 
