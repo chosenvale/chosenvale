@@ -28,13 +28,13 @@ function setupGallery(videos) {
 
   // Add the videos to the gallery
   for (var i = 0; i < videos.length; i++) {
-    var html = '<li><a href="' + videos[i].url + '"><img src="' + videos[i].thumbnail_large + '" class="thumb" />';
+    var html = '<li class="span6"><a href="' + videos[i].url + '" class="thumbnail"><img src="' + videos[i].thumbnail_small + '" class="thumb" />';
     html += '<p>' + videos[i].title + '</p></a></li>';
-    $('#thumbs ul').append(html);
+    $('div.related ul.thumbnails').append(html);
   }
 
   // Switch to the video when a thumbnail is clicked
-  $('#thumbs a').click(function(event) {
+  $('.thumbnails a').click(function(event) {
     event.preventDefault();
     getVideo(this.href);
     return false;
@@ -43,7 +43,7 @@ function setupGallery(videos) {
 }
 
 function switchVideo(video) {
-  $('#embed').html(unescape(video.html));
-  $('#details .title').html(unescape(video.title))
-  $('#details .description').html(unescape(video.description.replace(/\n/g, '<br />')))
+  $('.embed').html(unescape(video.html));
+  $('.details .title').html(unescape(video.title))
+  $('.details .description').html(unescape(video.description.replace(/\n/g, '<br />')))
 }
