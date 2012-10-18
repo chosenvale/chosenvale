@@ -1,3 +1,7 @@
+---
+title: Application Form - Chosen Vale (Center for Advanced Musical Studies)
+---
+
 header class="hero-unit"
   div class="container"
     h1 Apply
@@ -14,18 +18,21 @@ section id="trumpet-application" class="hidden"
     h3 Application Form
     .row
       .span12
-        .well
-          .alert.alert-info
-            strong
-              ' Careful!
-            | Please fill out all information as accurately as possible.
-          form class="form-horizontal"
-            input name="message[to][0][name]" type="hidden" value="Edward Carroll"
-            input name="message[to][0][email]" type="hidden" value="edward.carroll@dartmouth.edu"
-            == partial "partials/application/common_fields"
-            == partial "partials/application/field", locals: {id: "assistance", type: "checkbox", label: "I would like to be considered for <a href='/admission.html#financialaid'>tuition assistance</a>; I won't be able to attend the seminar without it."}
-            == partial "partials/application/payment_fields"
-            == partial "partials/application/field", locals: {id: "submit", type: "submit", classes: "btn btn-primary"}
+        .postage.well
+          .ready
+            .alert.alert-info
+              strong
+                ' Careful!
+              | Please fill out all information as accurately as possible.
+            form class="form-horizontal"
+              input name="message[to][0][name]" type="hidden" value="Edward Carroll"
+              input name="message[to][0][email]" type="hidden" value="edward.carroll@dartmouth.edu"
+              == partial "partials/application/common_fields"
+              == partial "partials/application/field", locals: {id: "assistance", type: "checkbox", label: "I would like to be considered for <a href='/admission.html#financialaid'>tuition assistance</a>; I won't be able to attend the seminar without it."}
+              == partial "partials/application/payment_fields"
+              == partial "partials/application/field", locals: {id: "submit", type: "submit", classes: "btn btn-primary"}
+          == partial "partials/postage/shared_states"
+
 
 
 
@@ -35,31 +42,33 @@ section id="percussion-application" class="hidden"
     h3 Application Form
     .row
       .span12
-        .well
-          .alert.alert-info
-            strong
-              ' Careful!
-            | Please fill out all information as accurately as possible.
-          form class="form-horizontal"
-            input name="message[to][0][name]" type="hidden" value="Edward Carroll"
-            input name="message[to][0][email]" type="hidden" value="edward.carroll@dartmouth.edu"
-            input name="message[to][1][name]" type="hidden" value="Douglas Perkins"
-            input name="message[to][1][email]" type="hidden" value="chosenvalepercussion@gmail.com"
-            == partial "partials/application/common_fields"
-            fieldset
-              .control-group
-                .controls
-                  label class="radio" for="scholarship" style="line-height: 31px"
-                    | Do you want to be considered for the Colin Currie scholarship?
-                    div style="float: left;margin-left: -18px;margin-right: 4px" class="btn-group" data-toggle="buttons-radio" id="scholarship"
-                      button class="btn" id="yes" Yes
-                      button class="btn" id="no" No
-            div id="scholarship-extra" class="hidden"
-              == partial "partials/application/field", locals: {id: "statement_of_purpose", type: "textarea", label: "Statement of Purpose", placeholder: "Plans and goals for development at Chosen Vale; how this seminar will impact your growth as a future leader. 500 words or so..."}
-              == partial "partials/application/field", locals: {id: "video1", label: "First Video URL", placeholder: "http://youtu.be/yyyooouuuuu"}
-              == partial "partials/application/field", locals: {id: "video2", label: "Second Video URL", placeholder: "http://vimeo.com/00000000"}
-            == partial "partials/application/payment_fields"
-            == partial "partials/application/field", locals: {id: "submit", type: "submit", classes: "btn btn-primary"}
+        .postage.well
+          .ready
+            .alert.alert-info
+              strong
+                ' Careful!
+              | Please fill out all information as accurately as possible.
+            form class="form-horizontal"
+              input name="message[to][0][name]" type="hidden" value="Edward Carroll"
+              input name="message[to][0][email]" type="hidden" value="edward.carroll@dartmouth.edu"
+              input name="message[to][1][name]" type="hidden" value="Douglas Perkins"
+              input name="message[to][1][email]" type="hidden" value="chosenvalepercussion@gmail.com"
+              == partial "partials/application/common_fields"
+              fieldset
+                .control-group
+                  .controls
+                    label class="radio" for="scholarship" style="line-height: 31px"
+                      | Do you want to be considered for the Colin Currie scholarship?
+                      div style="float: left;margin-left: -18px;margin-right: 4px" class="btn-group" data-toggle="buttons-radio" id="scholarship"
+                        button class="btn" id="yes" Yes
+                        button class="btn" id="no" No
+              div id="scholarship-extra" class="hidden"
+                == partial "partials/application/field", locals: {id: "statement_of_purpose", type: "textarea", label: "Statement of Purpose", placeholder: "Plans and goals for development at Chosen Vale; how this seminar will impact your growth as a future leader. 500 words or so..."}
+                == partial "partials/application/field", locals: {id: "video1", label: "First Video URL", placeholder: "http://youtu.be/yyyooouuuuu"}
+                == partial "partials/application/field", locals: {id: "video2", label: "Second Video URL", placeholder: "http://vimeo.com/00000000"}
+              == partial "partials/application/payment_fields"
+              == partial "partials/application/field", locals: {id: "submit", type: "submit", classes: "btn btn-primary"}
+          == partial "partials/postage/shared_states"
 
 
 

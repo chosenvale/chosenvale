@@ -40,35 +40,7 @@ section id="contact-us"
               .control-group
                 .controls
                   input class="btn" type="submit" value="Send!"
-          .sending.hidden
-            .row
-              .span2
-                strong Sending message
-              .span9
-                .progress.progress-striped.active
-                  div class="bar" style="width: 100%;"
-              .span12
-                button class="btn show-contact-form" Cancel
-          .sent.hidden
-            .row
-              .span2
-                strong Message sent!
-              .span9
-                .progress.progress-success
-                  div class="bar" style="width: 100%;"
-              .span12
-                button class="btn show-contact-form" Ok
-          .failure.hidden
-            .row
-              .span2
-                strong Whoops! 
-              .span9
-                .progress.progress-danger
-                  div class="bar" style="width: 100%;"
-              .span12
-                p Looks like there was a problem.
-                p Why don't you try calling? +1 (603) 667-5829
-                button class="btn show-contact-form" Go Back
+          == partial "partials/postage/shared_states"
 
 
 
