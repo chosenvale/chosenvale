@@ -29,7 +29,7 @@ section id="trumpet-application" class="hidden"
               input name="message[to][0][email]" type="hidden" value="edward.carroll@dartmouth.edu"
               input name="message[subject]" type="hidden" value="Application to Trumpet Seminar"
               == partial "partials/application/common_fields"
-              == partial "partials/application/field", locals: {name: "message[text][tuition_assistance]", id: "assistance", type: "checkbox", label: "I would like to be considered for <a href='/admission.html#financialaid'>tuition assistance</a>; I won't be able to attend the seminar without it."}
+              == partial "partials/application/field", locals: {name: "message[text][tuition_assistance]", id: "assistance", type: "checkbox", label: "I would like to be considered for <a href='/admission.html#financialaid'>tuition assistance</a>."}
               == partial "partials/application/payment_fields"
               == partial "partials/application/field", locals: {id: "submit", type: "submit", classes: "btn btn-primary"}
           == partial "partials/postage/shared_states"
