@@ -20,6 +20,7 @@
     iePreload($mainCarouselImages);
 
     // Activate all tooltip links
+    $('a[rel="tooltip"]').click(function(e) { e.preventDefault() } );
     $('a[rel="tooltip"]').tooltip();
 
     // Trigger subnav affix with custom offset:
