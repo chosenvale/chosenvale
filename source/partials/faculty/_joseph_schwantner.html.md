@@ -1,0 +1,9 @@
+Known for his dramatic and unique style and as a gifted orchestral colorist, Joseph Schwantner is one of the most prominent American composers today.  He received his musical and academic training at the Chicago Conservatory and Northwestern University and has served on the faculties of The Juilliard School, Eastman School of Music, and the Yale School of Music, 
+
+Schwantner's compositional career has been marked by many awards, grants, and fellowships, including the Pulitzer Prize in 1979 for his orchestral composition Aftertones of Infinity and several Grammy nominations.  Among his many commissions is his Percussion Concerto, which was commissioned for the 150th anniversary season of the New York Philharmonic and is one of the most performed concert works of the past decade.  Christopher Lamb, soloist in the new Naxos recording of Schwantner's music by the Nashville Symphony Orchestra received a 2012 Grammy Award for "Best Classical Instruemtal Solo" with Schwantner's Percussion Concerto.
+
+Schwantner is a member of the American Academy of Arts and Letters
+
+Schwantner's music is published exclusively by Schott Helicon Music Corporation and recorded on the RCA Red Seal/BMG, Hyperion, Naxos, Koch International Classics, EMI/Virgin, Sony, Delos, New World Records, Klavier and Innova labels. 
+
+Schwantner's recent commissions include works for the 75th anniversary of the National Symphony Orchestra, eighth blackbird, Flute Force, a work for flute and piano to honor flutist, Sam Baron's memory and a Concerto for Percussion Section, Timpani and Orchestra for the Percussive Arts Society and the Indianapolis Symphony Orchestra, for the Society's 50th anniversary, a work for flute/piccolo, percussion and piano to celebrate Walfrid Kujala's 50 years of teaching, a work for contralto and the Galax Baroque String Quartet.
