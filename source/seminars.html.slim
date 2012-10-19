@@ -78,10 +78,13 @@ section id="faculty"
                 | Past Faculty (Trumpet)
             #past-trumpet-faculty.accordion-body.collapse
               .accordion-inner
-                / == partial "partials/seminars/faculty_member", locals: {name: "Peter Evans"}
-                == partial "partials/seminars/faculty_member", locals: {name: "Hakan Hardenberger"}
-                / == partial "partials/seminars/faculty_member", locals: {name: "Markus Stockhausen"}
-                / == partial "partials/seminars/faculty_member", locals: {name: "Tristram Williams"}
+                .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Peter Evans"}
+                  == partial "partials/seminars/faculty_member", locals: {name: "Tristram Williams"}
+                .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Markus Stockhausen"}
+                .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Hakan Hardenberger"}
             .accordion-heading
               a class="accordion-toggle" data-toggle="collapse" data-parent="#past-faculty" href="#past-percussion-faculty"
                 | Past Faculty (Percussion)
@@ -92,9 +95,9 @@ section id="faculty"
                   == partial "partials/seminars/faculty_member", locals: {name: "Tom Freer"}
                 .span3
                   == partial "partials/seminars/faculty_member", locals: {name: "Colin Currie"}
-                / == partial "partials/seminars/faculty_member", locals: {name: "Daniel Druckman"}
-                .span3
                   == partial "partials/seminars/faculty_member", locals: {name: "Nancy Zeltsman"}
+                .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Daniel Druckman"}
 
 
 section id="guests"
@@ -124,15 +127,15 @@ section id="guests"
               .accordion-inner
                 .span3
                   == partial "partials/seminars/faculty_member", locals: {name: "David Lang"}
+                  == partial "partials/seminars/faculty_member", locals: {name: "Joseph Schwantner"}
                 .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Nathan Davis"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Christian Wolff"}
+                  == partial "partials/seminars/faculty_member", locals: {name: "Larry Polansky"}
                 .span3
                   == partial "partials/seminars/faculty_member", locals: {name: "David Rosenboom"}
-                  / == partial "partials/seminars/faculty_member", locals: {name: "Nathan Davis"}
-                  / == partial "partials/seminars/faculty_member", locals: {name: "Larry Polansky"}
-                  / == partial "partials/seminars/faculty_member", locals: {name: "Stuart Saunders Smith"}
-                  / == partial "partials/seminars/faculty_member", locals: {name: "Joseph Schwantner"}
-                  / == partial "partials/seminars/faculty_member", locals: {name: "Steve Reich"}
+                  == partial "partials/seminars/faculty_member", locals: {name: "Stuart Saunders Smith"}
+                  == partial "partials/seminars/faculty_member", locals: {name: "Steve Reich"}
               
 
 
