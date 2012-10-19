@@ -1,0 +1,9 @@
+Born in Cincinnati and educated in the Chicago area, James Ross graduated from Northern Illinois University in 1971. His teachers have included Roy C. Knapp, G. Allan O’Connor, and Vic Firth.
+
+Jim has been a percussionist with the Chicago Symphony Orchestra since 1979. He made his solo debut with the Orchestra in 1986 in Milhaud’s Concerto for Percussion and Chamber Orchestra under Erich Leinsdorf. A member of the Grant Park Symphony from 1973 to 1978, he returned to that orchestra in the summer of 1993 as a soloist in Toru Takemitsu’s From me flows what you call Time.
+
+Active as a chamber musician, Jim has performed and recorded with such ensembles as Chicago Pro Musica, Chamber Music Chicago, the Chicago Contemporary Chamber Players, Summit Brass, and the Vermeer Quartet. In 1995, he performed Bartók’s Sonata for Two Pianos and Percussion with Daniel Barenboim and András Schiff on the Lexus Great Performers Series at Orchestra Hall. He frequently participates in the Chicago Symphony’s chamber music series as well as its contemporary music programs.
+
+Jim has given master classes at the Bands of America World Percussion Symposium, clinics at the Percussive Arts Society International Convention, and classes at various universities across the country. He coaches the Civic Orchestra’s percussion section and is on the faculty of Northwestern University.
+
+Jim lives in the western suburbs with his wife, Andrea, whom he met when she was the Orchestra’s operations manager. She has worked for the Brookfield Zoo for the past several years and has written a book on its history. The two are the proud parents of son, Gregory, and daughter, Annie.
