@@ -75,7 +75,7 @@ section id="faculty"
           .accordion-group
             .accordion-heading
               a class="accordion-toggle" data-toggle="collapse" data-parent="#past-faculty" href="#past-trumpet-faculty"
-                | Past Trumpet Faculty
+                | Past Faculty (Trumpet)
             #past-trumpet-faculty.accordion-body.collapse
               .accordion-inner
                 / == partial "partials/seminars/faculty_member", locals: {name: "Peter Evans"}
@@ -84,7 +84,7 @@ section id="faculty"
                 / == partial "partials/seminars/faculty_member", locals: {name: "Tristram Williams"}
             .accordion-heading
               a class="accordion-toggle" data-toggle="collapse" data-parent="#past-faculty" href="#past-percussion-faculty"
-                | Past Percussion Faculty
+                | Past Faculty (Percussion)
             #past-percussion-faculty.accordion-body.collapse
               .accordion-inner
                 .span3
@@ -113,13 +113,13 @@ section id="guests"
           .accordion-group
             .accordion-heading
               a class="accordion-toggle" data-toggle="collapse" data-parent="#past-faculty" href="#past-trumpet-composer"
-                | Past Trumpet Composer in Residence
+                | Past Composer-in-Residence (Trumpet)
             #past-trumpet-composer.accordion-body.collapse
               .accordion-inner
                 == partial "partials/seminars/faculty_member", locals: {name: "David Rosenboom"}
             .accordion-heading
               a class="accordion-toggle" data-toggle="collapse" data-parent="#past-faculty" href="#past-percussion-composer"
-                | Past Percussion Guest Composers
+                | Past Guest Composers (Percussion)
             #past-percussion-composer.accordion-body.collapse
               .accordion-inner
                 .span3
