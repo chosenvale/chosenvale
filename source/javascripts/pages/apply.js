@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  // This section should only exist on the Contact page.
+  // These sections should only exist on the Application page.
   var $trumpet_form = $('section#trumpet-application div.postage form');
   var $percussion_form = $('section#percussion-application div.postage form');
 

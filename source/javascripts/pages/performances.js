@@ -1,16 +1,20 @@
+$(document).ready(function() {
+  if ( $('section#video').length != 0 ) {
+    console.log('Performances page!');
+
+    // Get the user's videos
+    $.getScript(apiEndpoint + vimeoUsername + '/videos.json?callback=' + videosCallback);
+  }
+});
+
 var apiEndpoint = 'http://vimeo.com/api/v2/';
 var oEmbedEndpoint = 'http://vimeo.com/api/oembed.json'
 var oEmbedCallback = 'switchVideo';
 var videosCallback = 'setupGallery';
 var vimeoUsername = 'user13986449';
 
-// Get the user's videos
-$(document).ready(function() {
-  $.getScript(apiEndpoint + vimeoUsername + '/videos.json?callback=' + videosCallback);
-});
 
 function videoWidth() {
-  // TODO: make responsive
   return 550;
 }
 
