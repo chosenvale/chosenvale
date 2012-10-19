@@ -3,13 +3,18 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site:
-  Twitter:
-  Location:
+  Editor: Sarah Reid
+  Twitter: @sarahbellereid
+  Location: Montreal, QC
+
+  Developer: Alexander Wenzowski
+  Site: http://wenzowski.com
+  Twitter: @wenzowski
+  Location: Montreal, QC
+
 
 /* THANKS */
-  Names (& URL):
+  Names (& URL): @natalielair http://www.colourlovers.com/lover/natalielair
 
 /* SITE */
   Standards: HTML5, CSS3
