@@ -1,0 +1,1 @@
+Bob Malone is Director of research and development at the Yamaha Corporation of America. Trumpets in his design are played by leading performers across the world.
