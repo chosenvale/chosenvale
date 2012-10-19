@@ -69,6 +69,33 @@ section id="faculty"
             == partial "partials/seminars/faculty_member", locals: {name: "Eduardo Leandro"}
             == partial "partials/seminars/faculty_member", locals: {name: "Doug Perkins"}
             == partial "partials/seminars/faculty_member", locals: {name: "Cynthia Yeh"}
+    .row
+      .span12
+        #past-faculty.accordion
+          .accordion-group
+            .accordion-heading
+              a class="accordion-toggle" data-toggle="collapse" data-parent="#past-faculty" href="#past-trumpet-faculty"
+                | Past Trumpet Faculty
+            #past-trumpet-faculty.accordion-body.collapse
+              .accordion-inner
+                / == partial "partials/seminars/faculty_member", locals: {name: "Peter Evans"}
+                == partial "partials/seminars/faculty_member", locals: {name: "Hakan Hardenberger"}
+                / == partial "partials/seminars/faculty_member", locals: {name: "Markus Stockhausen"}
+                / == partial "partials/seminars/faculty_member", locals: {name: "Tristram Williams"}
+            .accordion-heading
+              a class="accordion-toggle" data-toggle="collapse" data-parent="#past-faculty" href="#past-percussion-faculty"
+                | Past Percussion Faculty
+            #past-percussion-faculty.accordion-body.collapse
+              .accordion-inner
+                .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Pedro Carneiro"}
+                  == partial "partials/seminars/faculty_member", locals: {name: "Tom Freer"}
+                .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Colin Currie"}
+                / == partial "partials/seminars/faculty_member", locals: {name: "Daniel Druckman"}
+                .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Nancy Zeltsman"}
+
 
 section id="guests"
   div class="container"
@@ -80,7 +107,33 @@ section id="guests"
       .span6
         h3 Percussion
         == partial "partials/seminars/guest_artist", locals: {name: "Glenn Kotche", position: "Composer in Residence"}
-          
+    .row
+      .span12
+        #past-guests.accordion
+          .accordion-group
+            .accordion-heading
+              a class="accordion-toggle" data-toggle="collapse" data-parent="#past-faculty" href="#past-trumpet-composer"
+                | Past Trumpet Composer in Residence
+            #past-trumpet-composer.accordion-body.collapse
+              .accordion-inner
+                == partial "partials/seminars/faculty_member", locals: {name: "David Rosenboom"}
+            .accordion-heading
+              a class="accordion-toggle" data-toggle="collapse" data-parent="#past-faculty" href="#past-percussion-composer"
+                | Past Percussion Guest Composers
+            #past-percussion-composer.accordion-body.collapse
+              .accordion-inner
+                .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "David Lang"}
+                .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Christian Wolff"}
+                .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "David Rosenboom"}
+                  / == partial "partials/seminars/faculty_member", locals: {name: "Nathan Davis"}
+                  / == partial "partials/seminars/faculty_member", locals: {name: "Larry Polansky"}
+                  / == partial "partials/seminars/faculty_member", locals: {name: "Stuart Saunders Smith"}
+                  / == partial "partials/seminars/faculty_member", locals: {name: "Joseph Schwantner"}
+                  / == partial "partials/seminars/faculty_member", locals: {name: "Steve Reich"}
+              
 
 
 section id="campus"

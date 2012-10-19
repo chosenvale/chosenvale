@@ -19,6 +19,9 @@ section#schedule div.seminar{
 }
 section#faculty, section#guests {
   h1 {text-align: center}
+  div.accordion{
+    background-color: $white;
+  }
 }
 section#faculty, section#guests, section#campus, section#accommodation {
   h3 {text-align: center}
