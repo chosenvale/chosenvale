@@ -5,6 +5,6 @@ script:
   - bundle exec rake deploy --trace
 env:
   - [
-      {secure: "OGhC2CSsmyDLmIElzVGBsaO2NJhrORIrwaSd+nKGfYnAD9j9d5AzB9tjLt8c\nzzm9aGJil9uhODnQ5Jy2fVnooTTvDVXlkrspJ9b5Z7cJK1eL+8XvSQ60Hvju\nTNQcb2i+Jx1wd6PNAfTtNYoypkKHAISdPHK/FJZaoXqAny0kQFc="},
-      {secure: "iduzN9xIvwXGnVpJwXVv9ojKGqmdM/fFz1puUTOPDQb49aA2bvv+8V6jXSGY\nrXHzaCJYkWuatsFVDsg3E67PT2FxfH+IaWJ92EG790VnhT8B9REF7bZv40Ut\nHHh0uWt0LEzMo8WNUuK+YT6ZvaSiuSNGLO3w20EtyLN1zJQWbVo="}
+      {secure: "W4bHTlK7WraxVqNpbrLeX5KAOSata9C3P1MJpbURrWuUz0UECJrwdSYaToQn\nup/Chvp8Z+mgH98NHXnqWT9zYUDToqHhCeRVa4a/7vCjcP1XTFI4gdavHZPh\n3bxpmjhyEgv5cu/Jct+IQVOVm+Af3wZtoOup+GqgngVSjwnMSPY="},
+      {secure: "aczCzOAg3QNBIErwxfkrLhUSL/BBqVnWBfdKSjIITx3bH9lJlGNHr2BlLE1V\nsiUuAMvg8F+Yw9R/MeuEJ6xQNThm6Vh/xzGFhV9VExV7kF/ta4HUSTu83rZz\nM1LiVCehdgrg/M1Xi73Zw1monddRF/U8Jo8QwTZuJDI1L9O1PWQ="}
     ]
