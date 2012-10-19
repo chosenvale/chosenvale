@@ -1,5 +1,22 @@
 // Seminars page
 // -------------------------
+section#schedule div.seminar{
+  h1.title {
+    text-transform: uppercase;
+    text-align: center;
+    $red-line: 2px solid $cv-red;
+    border-top: $red-line;
+    border-bottom: $red-line;
+    font-weight: normal;
+    padding-top: 5px;
+  }
+  h3.date {
+    font-style: italic;
+    text-align: right;
+    margin: 0;
+    color: $cv-red;
+  }
+}
 section#faculty, section#guests {
   h1 {text-align: center}
 }
