@@ -1,50 +1,65 @@
 @import "compass/css3/pie";
 @import "compass/css3/images";
 
-div#main-carousel{
-  background-color: $navbarInverseBackgroundHighlight;
-}
-
-ul#main-carousel-control {
-  list-style-type: none;
-  margin-left: -20px;
-  height: 344px;
-  @include pie;
-  @include background(
-    linear-gradient(left, $navbarInverseBackgroundHighlight, $navbarInverseBackground),
-    $navbarInverseBackgroundHighlight
-  );
-  li a {
-    display: block;
-    padding: 12px;
-    border-top: 1px solid $navbarInverseBackgroundHighlight;
-    border-bottom: 1px solid $navbarInverseBackground;
-    color: $white;
-    &:hover, &:active {
+section#carousel{
+  padding: 1em;
+  a#director-quote {
+    &:hover {
       text-decoration: none;
-      @include pie;
-      @include background(
-        linear-gradient(right, $navbarInverseBackgroundHighlight, $navbarInverseBackground),
-        $navbarInverseBackgroundHighlight
-      );        
+    }
+    blockquote {
+      margin: 18px;
+      font-size: 1.7em;
+      line-height: 1.7em;
+    }
+    .cite {
+      margin-left: 18px;
     }
   }
-  @media (min-width: 1200px) {
-    margin-left: -30px;
-    height: 428px;
-    li a { padding: 18px; }
+  div#main-carousel{
+    background-color: $navbarInverseBackgroundHighlight;
   }
-  @media (min-width: 980px) and (max-width: 1199px) {
+  ul#main-carousel-control {
+    list-style-type: none;
     margin-left: -20px;
     height: 344px;
-    li a { padding: 12px; }
-  }
-  @media (min-width: 768px) and (max-width: 979px) {
-    margin-left: -20px;
-    height: 264px;
-    li a { padding: 7px; }
-  }
-  @media (max-width: 767px) {
-    margin-left: 0;
+    @include pie;
+    @include background(
+      linear-gradient(left, $navbarInverseBackgroundHighlight, $navbarInverseBackground),
+      $navbarInverseBackgroundHighlight
+    );
+    li a {
+      display: block;
+      padding: 12px;
+      border-top: 1px solid $navbarInverseBackgroundHighlight;
+      border-bottom: 1px solid $navbarInverseBackground;
+      color: $white;
+      &:hover, &:active {
+        text-decoration: none;
+        @include pie;
+        @include background(
+          linear-gradient(right, $navbarInverseBackgroundHighlight, $navbarInverseBackground),
+          $navbarInverseBackgroundHighlight
+        );        
+      }
+    }
+    @media (min-width: 1200px) {
+      margin-left: -30px;
+      height: 428px;
+      li a { padding: 18px; }
+    }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      margin-left: -20px;
+      height: 344px;
+      li a { padding: 12px; }
+    }
+    @media (min-width: 768px) and (max-width: 979px) {
+      margin-left: -20px;
+      height: 264px;
+      li a { padding: 7px; }
+    }
+    @media (max-width: 767px) {
+      margin-left: 0;
+    }
   }
 }

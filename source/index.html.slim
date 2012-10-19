@@ -75,7 +75,22 @@ section#carousel
           li
             a class="slide-6 control" href="/seminars.html" Apply Now
           li
-            a class="slide-7 control" href="/admission.html" Percussion Scholarship
+            a class="slide-7 control" href="/admission.html" Percussion 
+      .span12
+        ul.thumbnails
+          li.span12
+            a#director-quote.thumbnail data-toggle="modal" href="#message-from-director"
+              blockquote 
+                ' Each and every musician should focus on developing a wide-ranging and original musical voice...
+              .cite ~ Edward Carroll, Director
+        div#message-from-director.modal.hide
+          .modal-header
+            button.close type="button" data-dismiss="modal" ×
+            h3 Message from the Director
+          .modal-body
+            == partial "partials/index/directors_message"
+          .modal-footer
+            button.btn.btn-primary data-dismiss="modal" Close
 
         javascript:
           $('#main-carousel').carousel('cycle');
