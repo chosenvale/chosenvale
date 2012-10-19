@@ -1,5 +1,3 @@
-//= require jquery
-
 $(document).ready(function(){
 
   // Permit form data to be converted to json

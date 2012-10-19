@@ -1,7 +1,3 @@
-//= require jquery
-//= require jquery.validate.js
-//= require postage
-
 $(document).ready(function(){
 
   // This section should only exist on the Contact page.

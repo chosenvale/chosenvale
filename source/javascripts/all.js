@@ -1,6 +1,8 @@
 //= require jquery
 //= require bootstrap
-//= require_tree .
+//= require ./plugins/jquery.validate
+//= require ./plugins/postage
+//= require_tree ./pages
 
 !function ($) {
 
