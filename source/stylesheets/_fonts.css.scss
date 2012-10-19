@@ -3,13 +3,13 @@
   font-family: 'Sorts Mill Goudy';
   font-style: normal;
   font-weight: 400;
-  src: local('Sorts Mill Goudy Regular'), local('SortsMillGoudy-Regular'), url(/fonts/sorts-mill-goudy-regular.woff) format('woff');
+  src: local('Sorts Mill Goudy Regular'), local('SortsMillGoudy-Regular'), font-url('/fonts/sorts-mill-goudy-regular.woff') format('woff');
 }
 @font-face {
   font-family: 'Sorts Mill Goudy';
   font-style: italic;
   font-weight: 400;
-  src: local('Sorts Mill Goudy Italic'), local('SortsMillGoudy-Italic'), url(/fonts/sorts-mill-goudy-italic.woff) format('woff');
+  src: local('Sorts Mill Goudy Italic'), local('SortsMillGoudy-Italic'), font-url('/fonts/sorts-mill-goudy-italic.woff') format('woff');
 }
 
 // http://fonts.googleapis.com/css?family=Cardo:700&subset=latin,latin-ext
@@ -17,7 +17,7 @@
   font-family: 'Sorts Mill Goudy';
   font-style: normal;
   font-weight: bold;
-  src: local('Cardo Bold'), local('Cardo-Bold'), url(/fonts/cardo-bold.woff) format('woff');
+  src: local('Cardo Bold'), local('Cardo-Bold'), font-url('/fonts/cardo-bold.woff') format('woff');
 }
 
 // http://www.fontsquirrel.com/fonts/Sorts-Mill-Goudy
