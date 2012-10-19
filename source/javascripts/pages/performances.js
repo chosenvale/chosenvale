@@ -40,7 +40,7 @@ function setupGallery(videos) {
   }
 
   // Switch to the video when a thumbnail is clicked
-  $('.thumbnails a').click(function(event) {
+  $('div.related ul.thumbnails a').click(function(event) {
     event.preventDefault();
     getVideo(this.href);
     return false;
