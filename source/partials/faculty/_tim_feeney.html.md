@@ -1,43 +1,7 @@
-Tim Feeney seeks to explore and examine the timbral possibilities inherent
-in everyday found and built objects.  He treats his percussion setup as a
-friction instrument, using bows, scrapers, and rosined drumheads to capture
-and amplify frequencies that go unheard when an object is struck with a
-traditional mallet.  He supplements this acoustic console with an electronic
-instrument, arranged from mixers, contact microphones, and effects pedals,
-that synthesizes and alters the spectral characteristics of low-fidelity tones,
-feedback, and noise.
+A percussionist interested in experimental music, Tim Feeney seeks to explore and examine the timbral possibilities inherent in everyday found and built objects. Tim worked for several years within Boston’s timbral improvising community, a group of musicians interested in unstable and austere combinations of sounds and silences. He has performed with musicians including pianist Annie Lewandowski, cellist/ electronic musician Vic Rawlings, percussionists Nick Hennies and Greg Stuart, trumpeter Nate Wooley, sound artists Jed Speare and Ernst Karel, saxophonist Jack Wright, and the trio ONDA. His concerts have been held at experimental spaces such as the Red Room in Baltimore, Boston’s Institute of Contemporary Art, the Knitting Factory New York, and The Stone, as well as the Center for New Music and Audio Technology at UC-Berkeley, the Stanford Art Museum, Princeton University, and Dartmouth College. Within this community, he has recorded for the experimental Sedimental, homophoni, Audiobot, Soul on Rice, lildiscs, and Brassland/Talitres labels.
 
-Tim works within Boston's timbral improvising community, a group of
-musicians interested in unstable sounds and silences, exploring austere
-combinations of sound and the otherworldly ripple effects that pulse through
-a silent space and alert ears.  He has performed with musicians including
-thereminist James Coleman, cellist/electronic musician Vic Rawlings,
-tape-deck manipulator Howard Stelzer, trumpeter Nate Wooley, sound
-artists Jed Speare and Ernst Karel, saxophonist Jack Wright, and the trio
-ONDA.  His concerts have been held at experimental spaces such as the
-Red Room in Baltimore, Boston's Institute of Contemporary Art, Firehouse
-12 in New Haven, Connecticut, the Knitting Factory New York, and the Stone,
-as well as the Center for New Music and Audio Technology at UC-Berkeley,
-the Stanford Art Museum, Princeton University, and Dartmouth College.
+As an interpreter of contemporary compositions, Tim  has performed at venues such as the Brooklyn Academy of Music, Zankel Hall, the American Academy in Rome, and the Norfolk Chamber Music Festival, and his work has been featured on WNYC Radio’s New Sounds. A member of Boston’s Callithumpian Consort, Tim has appeared on the Musica Nova series at the Gewandhaus in Leipzig, Germany, and at New York’s Tonic, as part of its 50th birthday celebration for John Zorn. As a founding member of the So Percussion Group, Tim appeared in concerts and masterclasses at Columbia University and Williams College, and commissioned David Lang’s The So-Called Laws of Nature, premiered at the 2001 Bang on a Can Marathon. He was a co-founder of the duo Non Zero, with saxophonist Brian Sacawa, which has performed American and world premieres of works in concerts at MIT, NYU, the University of Michigan, the Kerrytown Concert Hall, New York’s Tenri Cultural Institute, and Eastern Nazarene College. As the percussionist in the onstage band for Rinde Eckert’s recent chamber piece Orpheus X, Tim has performed to great acclaim in stagings at Boston’s American Repertory Theater, the 2008 Hong Kong International Festival for the Arts, and New York’s Duke Theater at 42nd Street, praised by the New York Times.
 
-Tim's double life as an interpreter of contemporary compositions has led him
-to venues such as the Brooklyn Academy of Music, Zankel Hall, and the
-Norfolk Chamber Music Festival, and his work has been featured on WNYC
-Radio's New Sounds.  A member of Boston's Callithumpian Consort, Tim has
-appeared on the Musica Nova series at the Gewandhaus in Leipzig, Germany,   
-and at New York's Tonic, as part of its 50th birthday celebration for John
-Zorn.  As a founding member of the So Percussion Group, Tim appeared in
-concerts and masterclasses at Columbia University and Williams College,
-and commissioned David Lang's The So-Called Laws of Nature, premiered
-at the 2001 Bang on a Can Marathon.  He is a co-founder of the duo
-Non Zero, with saxophonist Brian Sacawa, which has performed American
-and world premieres of works in concerts at MIT, NYU, the University of
-Michigan, the Kerrytown Concert Hall, New York's Tenri Cultural Institute, and
-Eastern Nazarene College.
+Tim is currently Assistant Professor of Percussion at the University of Alabama, a position he began in fall 2012. Previously, he spent five years as a Lecturer in Music and the Director of Percussion at Cornell University, where he taught the Cornell Percussion Ensemble, Cornell Steel Band, and CU World Drum and Dance Ensemble. An active guest educator, Tim has given workshops on improvisation, chamber music and solo percussion performance, Ewe dance-drumming, and Balinese gamelan at schools including Michigan State University, Oberlin Conservatory, the University of Miami, the Longy School of Music, UC-Berkeley, UC-Davis, Bucknell University, and the Peabody Conservatory.
 
-An active educator, Tim has given workshops on improvisation, chamber music
-and solo percussion performance, Ewe dance-drumming, and Balinese gamelan
-schools including at the University of Miami, Longy School of Music,
-UC-Davis, Bucknell University, and the Peabody Conservatory.  He earned the  
-Doctor of Musical Arts degree from the Yale School of Music in 2007, and
-currently teaches at Cornell University.
+Tim earned a Bachelor of Music degree from the Cleveland Institute of Music, and Master of Music and Doctor of Musical Arts degrees from the Yale School of Music, where his teachers included Robert van Sice, Richard Weiner, and Paul Yancich. In addition, he has studied Balinese gamelan with the late Pak Wayan Konolan in Den Pasar, Bali, and Ewe dance-drumming with Johnson Kemeh of the University of Ghana at Legon, and with master drummer Kodzo Tagborlo of the Dzigbordi dance-drumming society, Dzodze, Volta Region, Ghana.
