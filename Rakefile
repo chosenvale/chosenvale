@@ -1,7 +1,7 @@
 require 'closync'
 
 task :build do
-  puts `bundle exec middleman build`
+  puts `bundle exec middleman build --verbose`
 end
 
 task :sync do
