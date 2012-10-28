@@ -9,7 +9,7 @@ gem 'redcarpet', '~> 2.1.1'
 
 gem 'rake', '~> 0.9.2.2'
 
-gem 'closync', '~> 0.0.3'
+gem 'closync', '~> 0.1.2'
 
 gem 'middleman-smusher'
 gem 'middleman-livereload'
