@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'middleman', '~> 3.1.0'
 gem 'middleman-livereload', '~> 3.1.0'
 
-gem 'jquery-sprockets', :git =>   'git://github.com/ent-io/jquery-sprockets.git', :branch =>'dev'
+gem 'jquery-source', '~> 1.7.2'
 gem 'bootstrap-sass', '~> 2.1.0.0'
 
 gem 'slim', '~> 1.2.2'
