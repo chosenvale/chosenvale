@@ -21,6 +21,9 @@ doc/
 build         # compiled output folder
 .sass-cache
 
+# Vim
+*.swp
+
 
 #### BEGIN - IGNORE OSX GARBAGE FILES ####
 
