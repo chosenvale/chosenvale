@@ -51,6 +51,12 @@ activate :livereload
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+# Enable middleman-deploy
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.build_before = true
+end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -89,3 +95,4 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
