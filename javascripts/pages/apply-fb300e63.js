@@ -1,0 +1,1 @@
+$(document).ready(function(){var t=$("section#trumpet-application div.postage form"),e=$("section#percussion-application div.postage form");t.submit(function(e){e.preventDefault(),t.sendWithPostage()}),e.submit(function(t){t.preventDefault(),e.sendWithPostage()})});
