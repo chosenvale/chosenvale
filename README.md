@@ -1,10 +1,8 @@
-# [Middleman][3] & [Twitter Bootstrap][4]
+# The Center for Advanced Musical Studies at Chosen Vale
 
-## Purpose
+Built with [Middleman][3] & [Twitter Bootstrap][4].
 
-To be used as a starting point for precompiled static websites.
-
-## Usage
+## Development
 
 *Note to novice programmers: the $ sign indicates a command prompt that's
 ready for input. Don't copy this symbol, just the code that follows it.*
@@ -45,6 +43,15 @@ ready for input. Don't copy this symbol, just the code that follows it.*
 3.  Make changes to the source and see them instantly in your browser at
     http://your-new-site-name.dev
 
+## Deployment
+
+Make sure you have push privileges and then
+
+    $ bundle exec middleman deploy
+
+This will automatically build the static pages, commit them to the `gh-pages` branch
+and push to github.
+
 ## A bit more about the languages used
 
 * [Ruby](http://www.ruby-lang.org/en/) ([Try ruby](http://tryruby.org/))
@@ -53,12 +60,10 @@ ready for input. Don't copy this symbol, just the code that follows it.*
 
 ## License
 
-Copyright (c) 2010 Alexander Wenzowski. MIT Licensed, see [LICENSE][7] for details.
+Copyright (c) 2014 Entio LLC (Montana). MIT Licensed, see [LICENSE][7] for details.
 
 * Middleman is [released under MIT License][5]
 * Twitter Boostrap is [released under Apache License][6]
-
-*Written for Entio LLC (Montana).*
 
 [0]: http://pow.cx/
 [1]: https://github.com/rodreegez/powder
