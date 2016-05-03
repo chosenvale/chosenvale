@@ -14,34 +14,10 @@ header class="hero-unit"
 section id="contact-us"
   div class="container"
     div class="row"
-      .span12
-        h1 Send a message
       .span9
-        .postage.well
-          .ready
-            form class="form-horizontal" action="http://entio-postage.herokuapp.com/messages/send.json" method="post"
-              input type="hidden" name="message[to][0][name]" value="Edward Carroll"
-              input type="hidden" name="message[to][0][email]" value="edward.carroll@dartmouth.edu"
-              .control-group
-                label class="control-label" for="name" Your Name
-                .controls
-                  input id="name" type="text" name="message[from_name]" 
-              .control-group
-                label class="control-label" for="email" Your Email
-                .controls
-                  input id="email" type="email" name="message[from_email]" 
-              .control-group
-                label class="control-label" for="subject" Subject
-                .controls
-                  input id="subject" class="span5" type="text" name="message[subject]" placeholder="Question?"
-              .control-group
-                label class="control-label" for="message" Message
-                .controls
-                  textarea id="message" class="span5" name="message[text]" rows="10" placeholder="Ask us something!"
-              .control-group
-                .controls
-                  input class="btn" type="submit" value="Send!"
-          == partial "partials/postage/shared_states"
+        .typeform-widget data-text="Contact" data-url="https://chosenvale.typeform.com/to/Q1oLSD" style="width:100%;height:500px;" 
+        javascript:
+          (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()
       .span3
         .well
           p Mailing address:
