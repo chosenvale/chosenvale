@@ -1,7 +1,5 @@
 //= require jquery
 //= require bootstrap
-//= require ./plugins/jquery.validate
-//= require ./plugins/postage
 //= require_tree ./pages
 
 !function ($) {
@@ -31,7 +29,7 @@
         , $offmin = $offset - $('.navbar').height()
       $subnav.affix({
         offset: {
-          top: function () { 
+          top: function () {
             return $(window).width() > 890 ? $offmin : $offmin+$('.navbar').height()
           }
         }
@@ -52,11 +50,11 @@
     // Toggle Trumpet/Percussion forms.
     $('div.btn-group#active-application').find('.btn').bind('click', function(event) {
       if ( $(this).attr('id') === 'trumpet' ) {
-        $('section#trumpet-application').removeClass('hidden');
-        $('section#percussion-application').addClass('hidden');         
+        $('#trumpet-application').removeClass('hidden');
+        $('#percussion-application').addClass('hidden');
       } else if ( $(this).attr('id') === 'percussion' ) {
-        $('section#trumpet-application').addClass('hidden');         
-        $('section#percussion-application').removeClass('hidden');    
+        $('#trumpet-application').addClass('hidden');
+        $('#percussion-application').removeClass('hidden');
       }
     })
 
