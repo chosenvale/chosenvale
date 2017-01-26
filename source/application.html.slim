@@ -12,13 +12,64 @@ header class="hero-unit"
 
 
 
-#trumpet-application.hidden.typeform-widget data-text=("Application – Trumpet") data-url="https://chosenvale.typeform.com/to/vInp03" style="width:100%;height:500px;margin-top:-30px;"
-javascript:
-  (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()
+#trumpet-application.hidden
+  div class="container"
+    h1 2017 International Trumpet Seminar
+    h3 Application Form
+    .row
+      .span12
+        .postage.well
+          .ready
+            .alert.alert-info
+              strong
+                ' Careful!
+              | Please fill out all information as accurately as possible.
+            form class="form-horizontal" action="https://forms.wenzowski.com/knxwpkly" method="post"
+              input.hidden type="text" name="_gotcha"
+              input type="hidden" name="_format" value="plain"
+              input type="hidden" name="_subject" value="Application to Trumpet Seminar"
+              input type="hidden" name="_cc" value="edward.carroll@dartmouth.edu"
+              input type="hidden" name="_next" value="http://www.chosenvale.org/application-complete.html"
+              == partial "partials/application/common_fields"
+              == partial "partials/application/field", locals: {name: "tuition_assistance", id: "assistance", type: "checkbox", label: "I would like to be considered for <a href='/admission.html#financialaid'>tuition assistance</a>."}
+              == partial "partials/application/payment_fields"
+              == partial "partials/application/field", locals: {id: "submit", type: "submit", classes: "btn btn-primary"}
+          == partial "partials/postage/shared_states"
 
-#percussion-application.hidden.typeform-widget data-text=("Application – Percussion") data-url="https://chosenvale.typeform.com/to/rwlqLH" style="width:100%;height:500px;margin-top:-30px;"
-javascript:
-  (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()
+#percussion-application.hidden
+  div class="container"
+    h1 2017 International Percussion Seminar
+    h3 Application Form
+    .row
+      .span12
+        .postage.well
+          .ready
+            .alert.alert-info
+              strong
+                ' Careful!
+              | Please fill out all information as accurately as possible.
+            form class="form-horizontal" action="https://forms.wenzowski.com/axolajwp" method="post"
+              input.hidden type="text" name="_gotcha"
+              input type="hidden" name="_format" value="plain"
+              input type="hidden" name="_subject" value="Application to Percussion Seminar"
+              input type="hidden" name="_cc" value="edward.carroll@dartmouth.edu,chosenvalepercussion@gmail.com"
+              input type="hidden" name="_next" value="http://www.chosenvale.org/application-complete.html"
+              == partial "partials/application/common_fields"
+              fieldset
+                .control-group
+                  .controls
+                    label class="radio" for="scholarship" style="line-height: 31px"
+                      | Do you want to be considered for the Colin Currie scholarship?
+                      div style="float: left;margin-left: -18px;margin-right: 4px" class="btn-group" data-toggle="buttons-radio" id="scholarship"
+                        button class="btn" id="yes" Yes
+                        button class="btn" id="no" No
+              div id="scholarship-extra" class="hidden"
+                == partial "partials/application/field", locals: {name: "statement_of_purpose", id: "statement_of_purpose", type: "textarea", label: "Statement of Purpose", placeholder: "Plans and goals for development at Chosen Vale; how this seminar will impact your growth as a future leader. 500 words or so..."}
+                == partial "partials/application/field", locals: {name: "video1", id: "video1", label: "First Video URL", placeholder: "http://youtu.be/yyyooouuuuu"}
+                == partial "partials/application/field", locals: {name: "video2", id: "video2", label: "Second Video URL", placeholder: "http://vimeo.com/00000000"}
+              == partial "partials/application/payment_fields"
+              == partial "partials/application/field", locals: {id: "submit", type: "submit", classes: "btn btn-primary"}
+          == partial "partials/postage/shared_states"
 
 section#address
   .container

@@ -1,0 +1,29 @@
+- unless defined?(name)
+  - name = ""
+- unless defined?(type)
+  - type = "text"
+- unless defined?(classes)
+  - classes = "span8"
+- unless defined?(rows)
+  - rows = "5"
+
+fieldset
+  div class="control-group"
+    - if defined?(label) && !(type == "checkbox")
+      label class="control-label" for="#{id}"= label
+    div class="controls"
+      - if (type == "textarea")
+        - if defined?(placeholder)
+          textarea name="#{name}" class="#{classes}" id="#{id}" placeholder="#{placeholder}" rows="#{rows}"
+        - else
+          textarea name="#{name}" class="#{classes}" id="#{id}" rows="#{rows}"
+      - elsif (type == "checkbox")
+        label class="checkbox"
+          input name="#{name}" type="checkbox"== label
+      - else
+        - if defined?(placeholder)
+          input name="#{name}" type="#{type}" class="#{classes}" id="#{id}" placeholder="#{placeholder}"
+        - else
+          input name="#{name}" type="#{type}" class="#{classes}" id="#{id}"
+      - if defined?(description)
+        p class="help-block"= description
