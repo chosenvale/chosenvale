@@ -19,7 +19,7 @@ section id="schedule"
     div class="row"
       div class="span6 seminar"
         h1 class="title" Trumpet Seminar
-        h3 class="date" from June 19 to July 1, 2017
+        h3 class="date" June 18 through June 30, 2018
         ul class="thumbnails"
           li class="span6"
             div class="thumbnail"
@@ -27,7 +27,7 @@ section id="schedule"
 
       div class="span6 seminar"
         h1 class="title" Percussion Seminar
-        h3 class="date" from July 3 to July 15, 2017
+        h3 class="date" July 2 through July 14, 2018
         ul class="thumbnails"
           li class="span6"
             div class="thumbnail"
@@ -47,29 +47,28 @@ section id="faculty"
             h3 Trumpet Faculty
         .row
           .span3
-            == partial "partials/seminars/faculty_member", locals: {name: "Stephen Burns"}
             == partial "partials/seminars/faculty_member", locals: {name: "Edward Carroll"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Stephanie Richards"}
             == partial "partials/seminars/faculty_member", locals: {name: "Clement Saunier"}
           .span3
+            == partial "partials/seminars/faculty_member", locals: {name: "Jeroen Berwaerts"}
             == partial "partials/seminars/faculty_member", locals: {name: "Marco Blaauw"}
-            == partial "partials/seminars/faculty_member", locals: {name: "Gabriele Cassone"}
-            == partial "partials/seminars/faculty_member", locals: {name: "Markus Stockhausen"}
-            == partial "partials/seminars/faculty_member", locals: {name: "Thomas Stevens"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Pacho Flores"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Tom Hooten"}
       .span6
         .row
           .span6
             h3 Percussion Faculty
         .row
           .span3
-            == partial "partials/seminars/faculty_member", locals: {name: "Keith Aleo"}
-            == partial "partials/seminars/faculty_member", locals: {name: "Pedro Carneiro"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Colin Currie"}
             == partial "partials/seminars/faculty_member", locals: {name: "Tim Feeney"}
             == partial "partials/seminars/faculty_member", locals: {name: "Doug Perkins"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Cynthia Yeh"}
           .span3
             == partial "partials/seminars/faculty_member", locals: {name: "Michael Burritt"}
             == partial "partials/seminars/faculty_member", locals: {name: "Amy Garapic"}
-            == partial "partials/seminars/faculty_member", locals: {name: "Russell Hartenberger"}
-            == partial "partials/seminars/faculty_member", locals: {name: "Ivan Trevino"}
+            == partial "partials/seminars/faculty_member", locals: {name: "Nancy Zeltsman"}
 
     .row
       .span12
@@ -81,14 +80,18 @@ section id="faculty"
             #past-trumpet-faculty.accordion-body.collapse
               .accordion-inner
                 .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Stephen Burns"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Peter Evans"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Tristram Williams"}
+                  == partial "partials/seminars/faculty_member", locals: {name: "Thomas Stevens"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Robert Sullivan"}
                 .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Gabriele Cassone"}
                   == partial "partials/seminars/faculty_member", locals: {name: "John Wallace"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Brian McWhorter"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Craig Morris"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Hakan Hardenberger"}
+                  == partial "partials/seminars/faculty_member", locals: {name: "Markus Stockhausen"}
                 .span3
                   == partial "partials/seminars/faculty_member", locals: {name: "Mark Gould"}
             .accordion-heading
@@ -97,18 +100,20 @@ section id="faculty"
             #past-percussion-faculty.accordion-body.collapse
               .accordion-inner
                 .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Keith Aleo"}
                   == partial "partials/seminars/faculty_member", locals: {name: "James Culley"}
-                  == partial "partials/seminars/faculty_member", locals: {name: "Nancy Zeltsman"}
-                  == partial "partials/seminars/faculty_member", locals: {name: "Cynthia Yeh"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Shane Shanahan"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Glenn Kotche"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Jason Treuting"}
                 .span3
+                  == partial "partials/seminars/faculty_member", locals: {name: "Pedro Carneiro"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Daniel Druckman"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Eduardo Leandro"}
+                  == partial "partials/seminars/faculty_member", locals: {name: "Ivan Trevino"}
                 .span3
                   == partial "partials/seminars/faculty_member", locals: {name: "Matthew Duvall"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Tom Freer"}
+                  == partial "partials/seminars/faculty_member", locals: {name: "Russell Hartenberger"}
                   == partial "partials/seminars/faculty_member", locals: {name: "James Ross"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Robyn Schulkowsky"}
 
@@ -120,13 +125,12 @@ section id="guests"
     .row
       .span6
         h3 Trumpet
-        == partial "partials/seminars/guest_artist", locals: {name: "Hakan Hardenberger", position: "Guest Masterclass"}
-        == partial "partials/seminars/guest_artist", locals: {name: "Rebecca Wilt", position: "Collaborative Pianist"}
-        == partial "partials/seminars/guest_artist", locals: {name: "Bob Malone", position: "Guest Artist"}
       .span6
         h3 Percussion
-        == partial "partials/seminars/guest_artist", locals: {name: "Tristan Perich", position: "Guest Composer"}
-        == partial "partials/seminars/guest_artist", locals: {name: "Lesley Flanigan", position: "Guest Composer"}
+      .span3
+        == partial "partials/seminars/guest_artist", locals: {name: "Rebecca Wilt", position: "Collaborative Pianist"}
+      .span3
+        == partial "partials/seminars/guest_artist", locals: {name: "Bob Malone", position: "Guest Artist"}
     .row
       .span12
         #past-guests.accordion
@@ -145,10 +149,12 @@ section id="guests"
                 .span3
                   == partial "partials/seminars/faculty_member", locals: {name: "David Lang"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Glenn Kotche"}
+                  == partial "partials/seminars/faculty_member", locals: {name: "Tristan Perich"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Joseph Schwantner"}
                 .span3
                   == partial "partials/seminars/faculty_member", locals: {name: "John Luther Adams"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Nathan Davis"}
+                  == partial "partials/seminars/faculty_member", locals: {name: "Lesley Flanigan"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Christian Wolff"}
                   == partial "partials/seminars/faculty_member", locals: {name: "Larry Polansky"}
                 .span3
