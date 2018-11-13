@@ -25,6 +25,8 @@ section#carousel
         div id="main-carousel" class="carousel slide"
           div class="carousel-inner"
             div class="active item"
+              == image_tag 'images/support/banner-8.jpg'
+            div class="item"
               == image_tag 'images/support/banner-2.jpg'
               div class="carousel-caption"
                 h4 Total Immersion
@@ -58,8 +60,6 @@ section#carousel
               == image_tag 'images/support/banner-3.jpg'
               div class="carousel-caption"
                 h4 Colin Currie Percussion Scholarship
-            div class="item"
-              == image_tag 'images/support/banner-8.jpg'
           a class="carousel-control left" href="#main-carousel" data-slide="prev" &lsaquo;
           a class="carousel-control right" href="#main-carousel" data-slide="next" &rsaquo;
       .span4
@@ -98,31 +98,31 @@ section#carousel
           $('#main-carousel').carousel('cycle');
           $('#main-carousel-control a.slide-1').mouseenter(function() {
             $('#main-carousel').carousel('pause');
-            $('#main-carousel').carousel(0);
+            $('#main-carousel').carousel(1);
           });
           $('#main-carousel-control a.slide-2').mouseenter(function() {
             $('#main-carousel').carousel('pause');
-            $('#main-carousel').carousel(1);
+            $('#main-carousel').carousel(2);
           });
           $('#main-carousel-control a.slide-3').mouseenter(function() {
             $('#main-carousel').carousel('pause');
-            $('#main-carousel').carousel(2);
+            $('#main-carousel').carousel(3);
           });
           $('#main-carousel-control a.slide-4').mouseenter(function() {
             $('#main-carousel').carousel('pause');
-            $('#main-carousel').carousel(3);
+            $('#main-carousel').carousel(4);
           });
           $('#main-carousel-control a.slide-5').mouseenter(function() {
             $('#main-carousel').carousel('pause');
-            $('#main-carousel').carousel(4);
+            $('#main-carousel').carousel(5);
           });
           $('#main-carousel-control a.slide-6').mouseenter(function() {
             $('#main-carousel').carousel('pause');
-            $('#main-carousel').carousel(5);
+            $('#main-carousel').carousel(6);
           });
           $('#main-carousel-control a.slide-7').mouseenter(function() {
             $('#main-carousel').carousel('pause');
-            $('#main-carousel').carousel(6);
+            $('#main-carousel').carousel(7);
           });
 
 section#featured
